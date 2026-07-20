@@ -1,0 +1,67 @@
+[package]
+name = "geotiff"
+version = "3.1.0"
+edition = "2024"
+description = "Behaviorally compatible native Rust port of geotiff.js 3.1.0"
+license = "MIT"
+repository = "https://github.com/hakantr/geotiff.rs"
+homepage = "https://github.com/hakantr/geotiff.rs"
+documentation = "https://hakantr.github.io/geotiff.rs/geotiff/"
+readme = "README.md"
+keywords = ["geotiff", "tiff", "geospatial", "raster", "cog"]
+categories = ["multimedia::images", "parser-implementations", "science::geo"]
+# crates.io's `geotiff` name belongs to the unrelated georust project. This
+# port is released as a GitHub source/crate artifact until it has a distinct
+# registry package name; fail closed instead of publishing under the wrong ID.
+publish = false
+include = [
+    "/src/**/*.rs",
+    "/examples/**/*.rs",
+    "/Cargo.toml",
+    "/Cargo.lock",
+    "/README.md",
+    "/README_EN.md",
+    "/LICENSE",
+    "/PORTING_PLAN.md",
+]
+
+[package.metadata.geotiff-js]
+version = "3.1.0"
+commit = "8594d1b4bde4072326916185c848e73a9e704850"
+
+[dependencies]
+# TIFF metadata/tile model and native codec registry. JPEG2000 is an additive
+# native capability; geotiff.js 3.1.0 itself does not register that codec.
+async-tiff = { version = "0.3.0", features = ["lerc", "webp", "jpeg2k", "tokio"] }
+async-trait = "0.1.91"
+bytes = "1.12.1"
+# @petamoriken/float16-compatible half-float conversion.
+half = "2"
+# Native JPEG decoder configured to emit the TIFF-declared component space.
+# Unlike jpeg-decoder's `ColorTransform::None`, this path also handles
+# horizontally/vertically subsampled JPEG tiles without panicking.
+zune-core = "0.5.1"
+zune-jpeg = "0.5.15"
+# LERC codec, including raw/Deflate/Zstd LERC payloads.
+lerc = "0.2.1"
+# Byte-weighted compressed-range cache.
+moka = { version = "0.12.15", features = ["future"] }
+# Kept on async-tiff 0.3.0's object_store major/minor for trait compatibility.
+object_store = "0.13"
+# CPU decode thread pool, separate from GPUI render/Tokio I/O threads.
+rayon = "1.12.0"
+# HTTP range source backend.
+reqwest = "0.13.4"
+# GDAL_METADATA XML parsing.
+roxmltree = "0.21.1"
+# Async runtime backing I/O, cancellation, tests, and the Rayon result bridge.
+tokio = { version = "1", features = ["time", "rt", "rt-multi-thread", "macros", "fs", "sync"] }
+url = "2.5.8"
+# Zstd codec (native libzstd, matching async-tiff's integration).
+zstd = "0.13.3"
+
+[dev-dependencies]
+image = { version = "0.25.10", default-features = false, features = ["png"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+sha2 = "0.10"

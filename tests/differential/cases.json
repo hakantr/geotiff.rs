@@ -1,0 +1,303 @@
+{
+  "metadataFixtures": [
+    "tiled-gray-i1.tif",
+    "minisblack-1c-8b.tiff",
+    "planar-rgb-u8.tif",
+    "palette-1c-4b.tiff",
+    "12bit.cropped.rgb.tiff",
+    "no_rows_per_strip.tiff",
+    "predictor-3-rgb-f32.tif",
+    "random-fp16-pred3.tiff",
+    "int16_rgb.tif",
+    "int16_zstd.tif",
+    "issue_69_packbits.tiff",
+    "float32_1band_lerc_zstd_block32.tif",
+    "uint8_rgba_webp_block64_cog.tif",
+    "tiled-jpeg-rgb-u8.tif",
+    "tiled-jpeg-ycbcr.tif",
+    "minisblack-2c-8b-alpha.tiff"
+  ],
+  "metadataDivergences": [
+    {
+      "id": "geotiffjs-rational-count-loop",
+      "classification": "referenceBugDataLoss",
+      "rationale": "geotiff.js 3.1.0 advances the RATIONAL output loop by two while also treating the TIFF count as the number of rational pairs; skipped pairs remain zero. The Rust port intentionally preserves every pair.",
+      "tags": [
+        {
+          "id": "318",
+          "name": "WhitePoint"
+        },
+        {
+          "id": "319",
+          "name": "PrimaryChromaticities"
+        },
+        {
+          "id": "532",
+          "name": "ReferenceBlackWhite"
+        }
+      ]
+    }
+  ],
+  "directoryObjectDivergence": {
+    "id": "native-eager-metadata-superset",
+    "classification": "nativeEagerMetadataSuperset",
+    "rationale": "geotiff.js toObject() contains only fields actualized at call time and excludes DeferredArray values even after loadValue(); the Rust directory is intentionally fully actualized and therefore may contain additional losslessly decoded tags. Every JS field must still exist with the same value."
+  },
+  "helperDivergences": [
+    {
+      "id": "geotiffjs-dataslice-int64-offset",
+      "classification": "referenceBugOffsetHandling",
+      "rationale": "DataSlice.readInt64() is the only DataSlice reader in geotiff.js 3.1.0 that does not subtract sliceOffset, so a valid absolute offset fails for non-zero slices. Rust applies the slice offset consistently."
+    },
+    {
+      "id": "geotiffjs-multipart-data-offset",
+      "classification": "referenceBugRangePayload",
+      "rationale": "geotiff.js 3.1.0 omits the boundary CRLF from startOfData and therefore slices two CRLF bytes plus only the first payload byte. Rust returns the Content-Range payload bytes exactly."
+    }
+  ],
+  "apiDivergences": [
+    {
+      "id": "geotiffjs-signed-writer-payload",
+      "classification": "referenceBugWriterDataLoss",
+      "rationale": "geotiff.js 3.1.0 infers signed BitsPerSample and SampleFormat correctly, but its writer typeMap omits Int8Array, Int16Array and Int32Array. encodeImage then allocates eight bytes per value and stores only the low byte. Rust defaults to a lossless signed payload and exposes WriterCompatibility::GeotiffJs for exact legacy wire reproduction."
+    }
+  ],
+  "errorDivergences": [
+    {
+      "id": "geotiffjs-recursive-image-index",
+      "classification": "referenceBugErrorIndex",
+      "rationale": "GeoTIFF.requestIFD(5) recursively discovers that IFD 1 is absent and reports index 1 instead of the requested index 5. The eager Rust directory keeps the requested index in GeoTiffImageIndexError."
+    },
+    {
+      "id": "native-invalid-chunky-block-sample-rejection",
+      "classification": "nativeInputValidation",
+      "rationale": "GeoTIFFImage.getTileOrStrip ignores an out-of-range sample for chunky data and returns a block labelled with that invalid sample. Rust rejects it before indexing decoded bands, preventing an inconsistent result and possible panic."
+    },
+    {
+      "id": "native-empty-writer-validation",
+      "classification": "nativeInputValidation",
+      "rationale": "The JavaScript writer dereferences the first element of empty input and leaks a TypeError. Rust returns the stable typed WriterError::EmptyData instead."
+    },
+    {
+      "id": "native-bigtiff-reserved-field-validation",
+      "classification": "nativeSpecificationValidation",
+      "rationale": "geotiff.js accepts a non-zero BigTIFF reserved header word even though the BigTIFF specification requires zero. Rust rejects the malformed header without changing valid-file behavior."
+    },
+    {
+      "id": "native-abstract-source-trait",
+      "classification": "nativeTypeSystemValidation",
+      "rationale": "JavaScript permits constructing BaseSource and only fails when its abstract fetch method is called. Rust's AsyncFileReader trait requires the read operation at implementation time, so this invalid object state is not constructible."
+    },
+    {
+      "id": "native-typed-writer-metadata",
+      "classification": "nativeTypeSystemValidation",
+      "rationale": "JavaScript accepts dynamically typed metadata and rejects invalid GeoAsciiParams, GeoDoubleParams and GeoKey value types at runtime. WriterValue and GeoKeyValue make those invalid combinations unrepresentable in Rust."
+    }
+  ],
+  "defaultRasterFixtures": [
+    "planar-rgb-u8.tif",
+    "palette-1c-4b.tiff",
+    "palette-1c-1b.tiff",
+    "12bit.cropped.tiff",
+    "no_rows_per_strip.tiff",
+    "predictor-3-gray-f32.tif",
+    "predictor-3-rgb-f32.tif",
+    "random-fp16-pred2.tiff",
+    "random-fp16-pred3.tiff",
+    "random-fp16.tiff",
+    "int8_rgb.tif",
+    "int16_rgb.tif",
+    "int16_zstd.tif",
+    "issue_69_packbits.tiff",
+    "float32_1band_lerc_block32.tif",
+    "float32_1band_lerc_deflate_block32.tif",
+    "float32_1band_lerc_zstd_block32.tif",
+    "minisblack-2c-8b-alpha.tiff"
+  ],
+  "rasterCases": [
+    {
+      "id": "planar-selected-bands",
+      "fixture": "planar-rgb-u8.tif",
+      "options": { "samples": [2, 0], "interleave": false }
+    },
+    {
+      "id": "planar-selected-interleaved",
+      "fixture": "planar-rgb-u8.tif",
+      "options": { "samples": [2, 0], "interleave": true }
+    },
+    {
+      "id": "planar-window-nearest",
+      "fixture": "planar-rgb-u8.tif",
+      "options": {
+        "window": [2, 3, 19, 21],
+        "width": 7,
+        "height": 5,
+        "resampleMethod": "nearest",
+        "interleave": false
+      }
+    },
+    {
+      "id": "planar-window-bilinear-interleaved",
+      "fixture": "planar-rgb-u8.tif",
+      "options": {
+        "window": [2, 3, 19, 21],
+        "width": 7,
+        "height": 5,
+        "resampleMethod": "BiLiNeAr",
+        "interleave": true
+      }
+    },
+    {
+      "id": "gray-outside-window-fill",
+      "fixture": "tiled-gray-i1.tif",
+      "options": {
+        "window": [-3, -2, 5, 4],
+        "fillValue": 7,
+        "interleave": true
+      }
+    },
+    {
+      "id": "alpha-outside-window-per-band-fill",
+      "fixture": "minisblack-2c-8b-alpha.tiff",
+      "options": {
+        "window": [-2, -1, 7, 6],
+        "fillValue": [11, 22],
+        "interleave": false
+      }
+    },
+    {
+      "id": "float-window-bilinear",
+      "fixture": "predictor-3-gray-f32.tif",
+      "options": {
+        "window": [1, 2, 31, 27],
+        "width": 13,
+        "height": 9,
+        "resampleMethod": "bilinear",
+        "interleave": false
+      }
+    },
+    {
+      "id": "packed-rgb-js-compatible",
+      "fixture": "12bit.cropped.rgb.tiff",
+      "options": {
+        "interleave": false,
+        "packedSampleMode": "geotiffJs"
+      }
+    },
+    {
+      "id": "webp-rgb-node-runtime",
+      "fixture": "uint8_rgb_webp_block64_cog.tif",
+      "comparison": "jsRuntimeUnsupported",
+      "options": { "interleave": false }
+    },
+    {
+      "id": "webp-rgba-node-runtime",
+      "fixture": "uint8_rgba_webp_block64_cog.tif",
+      "comparison": "jsRuntimeUnsupported",
+      "options": { "interleave": false }
+    },
+    {
+      "id": "jpeg-rgb-rasters",
+      "fixture": "tiled-jpeg-rgb-u8.tif",
+      "comparison": "numericTolerance",
+      "maxAbsoluteDifference": 16,
+      "maxMeanAbsoluteDifference": 0.75,
+      "options": { "interleave": true }
+    },
+    {
+      "id": "jpeg-ycbcr-rasters",
+      "fixture": "tiled-jpeg-ycbcr.tif",
+      "comparison": "numericTolerance",
+      "maxAbsoluteDifference": 16,
+      "maxMeanAbsoluteDifference": 0.75,
+      "options": { "interleave": true }
+    }
+  ],
+  "blockCases": [
+    {
+      "id": "packed-tiled-gray-block",
+      "fixture": "tiled-gray-i1.tif",
+      "options": { "x": 0, "y": 0, "sample": 0 }
+    },
+    {
+      "id": "planar-blue-block",
+      "fixture": "planar-rgb-u8.tif",
+      "options": { "x": 0, "y": 0, "sample": 2 }
+    },
+    {
+      "id": "striped-gray-block",
+      "fixture": "minisblack-1c-8b.tiff",
+      "options": { "x": 0, "y": 0, "sample": 0 }
+    },
+    {
+      "id": "float-predictor-block",
+      "fixture": "predictor-3-gray-f32.tif",
+      "options": { "x": 0, "y": 0, "sample": 0 }
+    },
+    {
+      "id": "zstd-int16-block",
+      "fixture": "int16_zstd.tif",
+      "options": { "x": 0, "y": 0, "sample": 0 }
+    },
+    {
+      "id": "packbits-block",
+      "fixture": "issue_69_packbits.tiff",
+      "options": { "x": 0, "y": 0, "sample": 0 }
+    },
+    {
+      "id": "lerc-zstd-block",
+      "fixture": "float32_1band_lerc_zstd_block32.tif",
+      "options": { "x": 0, "y": 0, "sample": 0 }
+    }
+  ],
+  "rgbCases": [
+    {
+      "id": "gray-rgb-bands",
+      "fixture": "tiled-gray-i1.tif",
+      "options": { "interleave": false }
+    },
+    {
+      "id": "gray-rgb-interleaved-window",
+      "fixture": "tiled-gray-i1.tif",
+      "options": {
+        "window": [2, 3, 19, 21],
+        "width": 7,
+        "height": 5,
+        "resampleMethod": "bilinear",
+        "interleave": true
+      }
+    },
+    {
+      "id": "palette-rgb-interleaved",
+      "fixture": "palette-1c-4b.tiff",
+      "options": { "interleave": true }
+    },
+    {
+      "id": "native-rgb-selected",
+      "fixture": "planar-rgb-u8.tif",
+      "options": { "interleave": false }
+    },
+    {
+      "id": "native-alpha-enabled",
+      "fixture": "uint8_rgba_webp_block64_cog.tif",
+      "comparison": "jsRuntimeUnsupported",
+      "options": { "interleave": true, "enableAlpha": true }
+    },
+    {
+      "id": "jpeg-ycbcr-rgb",
+      "fixture": "tiled-jpeg-ycbcr.tif",
+      "comparison": "numericTolerance",
+      "maxAbsoluteDifference": 16,
+      "maxMeanAbsoluteDifference": 0.5,
+      "options": { "interleave": true }
+    },
+    {
+      "id": "jpeg-ycbcr-rgb-bands",
+      "fixture": "tiled-jpeg-ycbcr.tif",
+      "comparison": "numericTolerance",
+      "maxAbsoluteDifference": 16,
+      "maxMeanAbsoluteDifference": 0.5,
+      "options": { "interleave": false }
+    }
+  ]
+}

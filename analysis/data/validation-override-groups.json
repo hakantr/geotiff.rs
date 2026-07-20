@@ -1,0 +1,478 @@
+[
+  {
+    "bareName": "decodeBlock",
+    "members": [
+      {
+        "name": "BaseDecoder.decodeBlock",
+        "file": "src/compression/basedecoder.js",
+        "line": 26,
+        "rawGroupSize": 9,
+        "correctedDependentCount": 1
+      },
+      {
+        "name": "DeflateDecoder.decodeBlock",
+        "file": "src/compression/deflate.js",
+        "line": 6,
+        "rawGroupSize": 9,
+        "correctedDependentCount": 0
+      },
+      {
+        "name": "JpegDecoder.decodeBlock",
+        "file": "src/compression/jpeg.js",
+        "line": 1111,
+        "rawGroupSize": 9,
+        "correctedDependentCount": 0
+      },
+      {
+        "name": "LercDecoder.decodeBlock",
+        "file": "src/compression/lerc.js",
+        "line": 19,
+        "rawGroupSize": 9,
+        "correctedDependentCount": 0
+      },
+      {
+        "name": "LZWDecoder.decodeBlock",
+        "file": "src/compression/lzw.js",
+        "line": 155,
+        "rawGroupSize": 9,
+        "correctedDependentCount": 0
+      },
+      {
+        "name": "PackbitsDecoder.decodeBlock",
+        "file": "src/compression/packbits.js",
+        "line": 5,
+        "rawGroupSize": 9,
+        "correctedDependentCount": 0
+      },
+      {
+        "name": "RawDecoder.decodeBlock",
+        "file": "src/compression/raw.js",
+        "line": 5,
+        "rawGroupSize": 9,
+        "correctedDependentCount": 0
+      },
+      {
+        "name": "WebImageDecoder.decodeBlock",
+        "file": "src/compression/webimage.js",
+        "line": 23,
+        "rawGroupSize": 9,
+        "correctedDependentCount": 0
+      },
+      {
+        "name": "ZstdDecoder.decodeBlock",
+        "file": "src/compression/zstd.js",
+        "line": 8,
+        "rawGroupSize": 9,
+        "correctedDependentCount": 0
+      }
+    ],
+    "rawAllIdentical": true,
+    "correctedAllIdentical": false
+  },
+  {
+    "bareName": "fetchSlice",
+    "members": [
+      {
+        "name": "ArrayBufferSource.fetchSlice",
+        "file": "src/source/arraybuffer.js",
+        "line": 18,
+        "rawGroupSize": 8,
+        "correctedDependentCount": 0
+      },
+      {
+        "name": "BaseSource.fetchSlice",
+        "file": "src/source/basesource.js",
+        "line": 26,
+        "rawGroupSize": 8,
+        "correctedDependentCount": 2
+      },
+      {
+        "name": "FileSource.fetchSlice",
+        "file": "src/source/file.js",
+        "line": 73,
+        "rawGroupSize": 8,
+        "correctedDependentCount": 0
+      },
+      {
+        "name": "FileReaderSource.fetchSlice",
+        "file": "src/source/filereader.js",
+        "line": 17,
+        "rawGroupSize": 8,
+        "correctedDependentCount": 0
+      },
+      {
+        "name": "RemoteSource.fetchSlice",
+        "file": "src/source/remote.js",
+        "line": 132,
+        "rawGroupSize": 8,
+        "correctedDependentCount": 2
+      }
+    ],
+    "rawAllIdentical": true,
+    "correctedAllIdentical": false
+  },
+  {
+    "bareName": "get:status",
+    "members": [
+      {
+        "name": "BaseResponse.get:status",
+        "file": "src/source/client/base.js",
+        "line": 13,
+        "rawGroupSize": 7,
+        "correctedDependentCount": 3
+      },
+      {
+        "name": "FetchResponse.get:status",
+        "file": "src/source/client/fetch.js",
+        "line": 13,
+        "rawGroupSize": 7,
+        "correctedDependentCount": 0
+      },
+      {
+        "name": "HttpResponse.get:status",
+        "file": "src/source/client/http.js",
+        "line": 20,
+        "rawGroupSize": 7,
+        "correctedDependentCount": 0
+      },
+      {
+        "name": "XHRResponse.get:status",
+        "file": "src/source/client/xhr.js",
+        "line": 16,
+        "rawGroupSize": 7,
+        "correctedDependentCount": 0
+      }
+    ],
+    "rawAllIdentical": true,
+    "correctedAllIdentical": false
+  },
+  {
+    "bareName": "getHeader",
+    "members": [
+      {
+        "name": "BaseResponse.getHeader",
+        "file": "src/source/client/base.js",
+        "line": 22,
+        "rawGroupSize": 6,
+        "correctedDependentCount": 2
+      },
+      {
+        "name": "FetchResponse.getHeader",
+        "file": "src/source/client/fetch.js",
+        "line": 21,
+        "rawGroupSize": 6,
+        "correctedDependentCount": 0
+      },
+      {
+        "name": "HttpResponse.getHeader",
+        "file": "src/source/client/http.js",
+        "line": 28,
+        "rawGroupSize": 6,
+        "correctedDependentCount": 0
+      },
+      {
+        "name": "XHRResponse.getHeader",
+        "file": "src/source/client/xhr.js",
+        "line": 24,
+        "rawGroupSize": 6,
+        "correctedDependentCount": 0
+      }
+    ],
+    "rawAllIdentical": true,
+    "correctedAllIdentical": false
+  },
+  {
+    "bareName": "getData",
+    "members": [
+      {
+        "name": "BaseResponse.getData",
+        "file": "src/source/client/base.js",
+        "line": 29,
+        "rawGroupSize": 8,
+        "correctedDependentCount": 2
+      },
+      {
+        "name": "FetchResponse.getData",
+        "file": "src/source/client/fetch.js",
+        "line": 25,
+        "rawGroupSize": 8,
+        "correctedDependentCount": 0
+      },
+      {
+        "name": "HttpResponse.getData",
+        "file": "src/source/client/http.js",
+        "line": 33,
+        "rawGroupSize": 8,
+        "correctedDependentCount": 0
+      },
+      {
+        "name": "XHRResponse.getData",
+        "file": "src/source/client/xhr.js",
+        "line": 28,
+        "rawGroupSize": 8,
+        "correctedDependentCount": 0
+      }
+    ],
+    "rawAllIdentical": true,
+    "correctedAllIdentical": false
+  },
+  {
+    "bareName": "request",
+    "members": [
+      {
+        "name": "BaseClient.request",
+        "file": "src/source/client/base.js",
+        "line": 45,
+        "rawGroupSize": 5,
+        "correctedDependentCount": 2
+      },
+      {
+        "name": "FetchClient.request",
+        "file": "src/source/client/fetch.js",
+        "line": 48,
+        "rawGroupSize": 5,
+        "correctedDependentCount": 0
+      },
+      {
+        "name": "HttpClient.request",
+        "file": "src/source/client/http.js",
+        "line": 90,
+        "rawGroupSize": 5,
+        "correctedDependentCount": 0
+      },
+      {
+        "name": "XHRClient.request",
+        "file": "src/source/client/xhr.js",
+        "line": 66,
+        "rawGroupSize": 5,
+        "correctedDependentCount": 0
+      }
+    ],
+    "rawAllIdentical": true,
+    "correctedAllIdentical": false
+  },
+  {
+    "bareName": "getImage",
+    "members": [
+      {
+        "name": "GeoTIFFBase.getImage",
+        "file": "src/geotiff.js",
+        "line": 263,
+        "rawGroupSize": 4,
+        "correctedDependentCount": 1
+      },
+      {
+        "name": "GeoTIFF.getImage",
+        "file": "src/geotiff.js",
+        "line": 489,
+        "rawGroupSize": 4,
+        "correctedDependentCount": 0
+      },
+      {
+        "name": "MultiGeoTIFF.getImage",
+        "file": "src/geotiff.js",
+        "line": 648,
+        "rawGroupSize": 4,
+        "correctedDependentCount": 0
+      }
+    ],
+    "rawAllIdentical": true,
+    "correctedAllIdentical": false
+  },
+  {
+    "bareName": "getImageCount",
+    "members": [
+      {
+        "name": "GeoTIFFBase.getImageCount",
+        "file": "src/geotiff.js",
+        "line": 270,
+        "rawGroupSize": 6,
+        "correctedDependentCount": 1
+      },
+      {
+        "name": "GeoTIFF.getImageCount",
+        "file": "src/geotiff.js",
+        "line": 501,
+        "rawGroupSize": 6,
+        "correctedDependentCount": 1
+      },
+      {
+        "name": "MultiGeoTIFF.getImageCount",
+        "file": "src/geotiff.js",
+        "line": 680,
+        "rawGroupSize": 6,
+        "correctedDependentCount": 1
+      }
+    ],
+    "rawAllIdentical": true,
+    "correctedAllIdentical": true
+  },
+  {
+    "bareName": "close",
+    "members": [
+      {
+        "name": "GeoTIFF.close",
+        "file": "src/geotiff.js",
+        "line": 602,
+        "rawGroupSize": 0,
+        "correctedDependentCount": 0
+      },
+      {
+        "name": "BaseSource.close",
+        "file": "src/source/basesource.js",
+        "line": 38,
+        "rawGroupSize": 3,
+        "correctedDependentCount": 1
+      },
+      {
+        "name": "FileSource.close",
+        "file": "src/source/file.js",
+        "line": 90,
+        "rawGroupSize": 3,
+        "correctedDependentCount": 0
+      }
+    ],
+    "rawAllIdentical": false,
+    "correctedAllIdentical": false
+  },
+  {
+    "bareName": "fetch",
+    "members": [
+      {
+        "name": "BaseSource.fetch",
+        "file": "src/source/basesource.js",
+        "line": 15,
+        "rawGroupSize": 8,
+        "correctedDependentCount": 6
+      },
+      {
+        "name": "BlockedSource.fetch",
+        "file": "src/source/blockedsource.js",
+        "line": 81,
+        "rawGroupSize": 8,
+        "correctedDependentCount": 0
+      },
+      {
+        "name": "RemoteSource.fetch",
+        "file": "src/source/remote.js",
+        "line": 42,
+        "rawGroupSize": 8,
+        "correctedDependentCount": 0
+      }
+    ],
+    "rawAllIdentical": true,
+    "correctedAllIdentical": false
+  },
+  {
+    "bareName": "get:fileSize",
+    "members": [
+      {
+        "name": "BaseSource.get:fileSize",
+        "file": "src/source/basesource.js",
+        "line": 34,
+        "rawGroupSize": 6,
+        "correctedDependentCount": 1
+      },
+      {
+        "name": "BlockedSource.get:fileSize",
+        "file": "src/source/blockedsource.js",
+        "line": 72,
+        "rawGroupSize": 6,
+        "correctedDependentCount": 1
+      },
+      {
+        "name": "RemoteSource.get:fileSize",
+        "file": "src/source/remote.js",
+        "line": 171,
+        "rawGroupSize": 6,
+        "correctedDependentCount": 0
+      }
+    ],
+    "rawAllIdentical": true,
+    "correctedAllIdentical": false
+  },
+  {
+    "bareName": "get:buffer",
+    "members": [
+      {
+        "name": "DataSlice.get:buffer",
+        "file": "src/dataslice.js",
+        "line": 31,
+        "rawGroupSize": 1,
+        "correctedDependentCount": 1
+      },
+      {
+        "name": "DataView64.get:buffer",
+        "file": "src/dataview64.js",
+        "line": 11,
+        "rawGroupSize": 0,
+        "correctedDependentCount": 0
+      }
+    ],
+    "rawAllIdentical": false,
+    "correctedAllIdentical": false
+  },
+  {
+    "bareName": "readRasters",
+    "members": [
+      {
+        "name": "GeoTIFFBase.readRasters",
+        "file": "src/geotiff.js",
+        "line": 294,
+        "rawGroupSize": 0,
+        "correctedDependentCount": 0
+      },
+      {
+        "name": "GeoTIFFImage.readRasters",
+        "file": "src/geotiffimage.js",
+        "line": 655,
+        "rawGroupSize": 5,
+        "correctedDependentCount": 3
+      }
+    ],
+    "rawAllIdentical": false,
+    "correctedAllIdentical": false
+  },
+  {
+    "bareName": "getSlice",
+    "members": [
+      {
+        "name": "GeoTIFF.getSlice",
+        "file": "src/geotiff.js",
+        "line": 426,
+        "rawGroupSize": 2,
+        "correctedDependentCount": 1
+      },
+      {
+        "name": "ImageFileDirectoryParser.getSlice",
+        "file": "src/imagefiledirectory.js",
+        "line": 477,
+        "rawGroupSize": 4,
+        "correctedDependentCount": 1
+      }
+    ],
+    "rawAllIdentical": false,
+    "correctedAllIdentical": true
+  },
+  {
+    "bareName": "constructRequest",
+    "members": [
+      {
+        "name": "HttpClient.constructRequest",
+        "file": "src/source/client/http.js",
+        "line": 52,
+        "rawGroupSize": 1,
+        "correctedDependentCount": 1
+      },
+      {
+        "name": "XHRClient.constructRequest",
+        "file": "src/source/client/xhr.js",
+        "line": 39,
+        "rawGroupSize": 1,
+        "correctedDependentCount": 1
+      }
+    ],
+    "rawAllIdentical": true,
+    "correctedAllIdentical": true
+  }
+]

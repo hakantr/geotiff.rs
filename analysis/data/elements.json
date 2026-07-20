@@ -1,0 +1,2675 @@
+[
+  {
+    "id": "E00001",
+    "kind": "class",
+    "name": "DataSlice",
+    "file": "src/dataslice.js",
+    "line": 1,
+    "hasName": true,
+    "rawGroupSize": 14
+  },
+  {
+    "id": "E00002",
+    "kind": "constructor",
+    "name": "DataSlice.constructor",
+    "file": "src/dataslice.js",
+    "line": 8,
+    "rawGroupSize": null
+  },
+  {
+    "id": "E00003",
+    "kind": "method",
+    "name": "DataSlice.get:sliceOffset",
+    "file": "src/dataslice.js",
+    "line": 15,
+    "rawGroupSize": 1
+  },
+  {
+    "id": "E00004",
+    "kind": "method",
+    "name": "DataSlice.get:sliceTop",
+    "file": "src/dataslice.js",
+    "line": 19,
+    "rawGroupSize": 1
+  },
+  {
+    "id": "E00005",
+    "kind": "method",
+    "name": "DataSlice.get:littleEndian",
+    "file": "src/dataslice.js",
+    "line": 23,
+    "rawGroupSize": 0
+  },
+  {
+    "id": "E00006",
+    "kind": "method",
+    "name": "DataSlice.get:bigTiff",
+    "file": "src/dataslice.js",
+    "line": 27,
+    "rawGroupSize": 0
+  },
+  {
+    "id": "E00007",
+    "kind": "method",
+    "name": "DataSlice.get:buffer",
+    "file": "src/dataslice.js",
+    "line": 31,
+    "rawGroupSize": 1
+  },
+  {
+    "id": "E00008",
+    "kind": "method",
+    "name": "DataSlice.covers",
+    "file": "src/dataslice.js",
+    "line": 40,
+    "rawGroupSize": 2
+  },
+  {
+    "id": "E00009",
+    "kind": "method",
+    "name": "DataSlice.readUint8",
+    "file": "src/dataslice.js",
+    "line": 48,
+    "rawGroupSize": 2
+  },
+  {
+    "id": "E00010",
+    "kind": "method",
+    "name": "DataSlice.readInt8",
+    "file": "src/dataslice.js",
+    "line": 56,
+    "rawGroupSize": 2
+  },
+  {
+    "id": "E00011",
+    "kind": "method",
+    "name": "DataSlice.readUint16",
+    "file": "src/dataslice.js",
+    "line": 64,
+    "rawGroupSize": 5
+  },
+  {
+    "id": "E00012",
+    "kind": "method",
+    "name": "DataSlice.readInt16",
+    "file": "src/dataslice.js",
+    "line": 74,
+    "rawGroupSize": 2
+  },
+  {
+    "id": "E00013",
+    "kind": "method",
+    "name": "DataSlice.readUint32",
+    "file": "src/dataslice.js",
+    "line": 84,
+    "rawGroupSize": 8
+  },
+  {
+    "id": "E00014",
+    "kind": "method",
+    "name": "DataSlice.readInt32",
+    "file": "src/dataslice.js",
+    "line": 94,
+    "rawGroupSize": 4
+  },
+  {
+    "id": "E00015",
+    "kind": "method",
+    "name": "DataSlice.readFloat32",
+    "file": "src/dataslice.js",
+    "line": 104,
+    "rawGroupSize": 2
+  },
+  {
+    "id": "E00016",
+    "kind": "method",
+    "name": "DataSlice.readFloat64",
+    "file": "src/dataslice.js",
+    "line": 114,
+    "rawGroupSize": 2
+  },
+  {
+    "id": "E00017",
+    "kind": "method",
+    "name": "DataSlice.readUint64",
+    "file": "src/dataslice.js",
+    "line": 124,
+    "rawGroupSize": 5
+  },
+  {
+    "id": "E00018",
+    "kind": "method",
+    "name": "DataSlice.readInt64",
+    "file": "src/dataslice.js",
+    "line": 154,
+    "rawGroupSize": 2
+  },
+  {
+    "id": "E00019",
+    "kind": "method",
+    "name": "DataSlice.readOffset",
+    "file": "src/dataslice.js",
+    "line": 185,
+    "rawGroupSize": 2
+  },
+  {
+    "id": "E00020",
+    "kind": "class",
+    "name": "DataView64",
+    "file": "src/dataview64.js",
+    "line": 3,
+    "hasName": true,
+    "rawGroupSize": 2
+  },
+  {
+    "id": "E00021",
+    "kind": "constructor",
+    "name": "DataView64.constructor",
+    "file": "src/dataview64.js",
+    "line": 7,
+    "rawGroupSize": null
+  },
+  {
+    "id": "E00022",
+    "kind": "method",
+    "name": "DataView64.get:buffer",
+    "file": "src/dataview64.js",
+    "line": 11,
+    "rawGroupSize": 0
+  },
+  {
+    "id": "E00023",
+    "kind": "method",
+    "name": "DataView64.getUint64",
+    "file": "src/dataview64.js",
+    "line": 20,
+    "rawGroupSize": 1
+  },
+  {
+    "id": "E00024",
+    "kind": "method",
+    "name": "DataView64.getInt64",
+    "file": "src/dataview64.js",
+    "line": 51,
+    "rawGroupSize": 0
+  },
+  {
+    "id": "E00025",
+    "kind": "method",
+    "name": "DataView64.getUint8",
+    "file": "src/dataview64.js",
+    "line": 79,
+    "rawGroupSize": 0
+  },
+  {
+    "id": "E00026",
+    "kind": "method",
+    "name": "DataView64.getInt8",
+    "file": "src/dataview64.js",
+    "line": 87,
+    "rawGroupSize": 0
+  },
+  {
+    "id": "E00027",
+    "kind": "method",
+    "name": "DataView64.getUint16",
+    "file": "src/dataview64.js",
+    "line": 96,
+    "rawGroupSize": 3
+  },
+  {
+    "id": "E00028",
+    "kind": "method",
+    "name": "DataView64.getInt16",
+    "file": "src/dataview64.js",
+    "line": 105,
+    "rawGroupSize": 0
+  },
+  {
+    "id": "E00029",
+    "kind": "method",
+    "name": "DataView64.getUint32",
+    "file": "src/dataview64.js",
+    "line": 114,
+    "rawGroupSize": 3
+  },
+  {
+    "id": "E00030",
+    "kind": "method",
+    "name": "DataView64.getInt32",
+    "file": "src/dataview64.js",
+    "line": 123,
+    "rawGroupSize": 0
+  },
+  {
+    "id": "E00031",
+    "kind": "method",
+    "name": "DataView64.getFloat16",
+    "file": "src/dataview64.js",
+    "line": 132,
+    "rawGroupSize": 0
+  },
+  {
+    "id": "E00032",
+    "kind": "method",
+    "name": "DataView64.getFloat32",
+    "file": "src/dataview64.js",
+    "line": 141,
+    "rawGroupSize": 0
+  },
+  {
+    "id": "E00033",
+    "kind": "method",
+    "name": "DataView64.getFloat64",
+    "file": "src/dataview64.js",
+    "line": 150,
+    "rawGroupSize": 0
+  },
+  {
+    "id": "E00034",
+    "kind": "function",
+    "name": "getValues",
+    "file": "src/geotiff.js",
+    "line": 170,
+    "rawGroupSize": 3
+  },
+  {
+    "id": "E00035",
+    "kind": "class",
+    "name": "GeoTIFFImageIndexError",
+    "file": "src/geotiff.js",
+    "line": 248,
+    "hasName": true,
+    "rawGroupSize": 4
+  },
+  {
+    "id": "E00036",
+    "kind": "constructor",
+    "name": "GeoTIFFImageIndexError.constructor",
+    "file": "src/geotiff.js",
+    "line": 252,
+    "rawGroupSize": null
+  },
+  {
+    "id": "E00037",
+    "kind": "class",
+    "name": "GeoTIFFBase",
+    "file": "src/geotiff.js",
+    "line": 258,
+    "hasName": true,
+    "rawGroupSize": 3
+  },
+  {
+    "id": "E00038",
+    "kind": "method",
+    "name": "GeoTIFFBase.getImage",
+    "file": "src/geotiff.js",
+    "line": 263,
+    "rawGroupSize": 4
+  },
+  {
+    "id": "E00039",
+    "kind": "method",
+    "name": "GeoTIFFBase.getImageCount",
+    "file": "src/geotiff.js",
+    "line": 270,
+    "rawGroupSize": 6
+  },
+  {
+    "id": "E00040",
+    "kind": "method",
+    "name": "GeoTIFFBase.readRasters",
+    "file": "src/geotiff.js",
+    "line": 294,
+    "rawGroupSize": 0
+  },
+  {
+    "id": "E00041",
+    "kind": "class",
+    "name": "GeoTIFF",
+    "file": "src/geotiff.js",
+    "line": 397,
+    "hasName": true,
+    "rawGroupSize": 17
+  },
+  {
+    "id": "E00042",
+    "kind": "constructor",
+    "name": "GeoTIFF.constructor",
+    "file": "src/geotiff.js",
+    "line": 407,
+    "rawGroupSize": null
+  },
+  {
+    "id": "E00043",
+    "kind": "method",
+    "name": "GeoTIFF.getSlice",
+    "file": "src/geotiff.js",
+    "line": 426,
+    "rawGroupSize": 2
+  },
+  {
+    "id": "E00044",
+    "kind": "method",
+    "name": "GeoTIFF.requestIFD",
+    "file": "src/geotiff.js",
+    "line": 443,
+    "rawGroupSize": 4
+  },
+  {
+    "id": "E00045",
+    "kind": "method",
+    "name": "GeoTIFF.getImage",
+    "file": "src/geotiff.js",
+    "line": 489,
+    "rawGroupSize": 4
+  },
+  {
+    "id": "E00046",
+    "kind": "method",
+    "name": "GeoTIFF.getImageCount",
+    "file": "src/geotiff.js",
+    "line": 501,
+    "rawGroupSize": 6
+  },
+  {
+    "id": "E00047",
+    "kind": "method",
+    "name": "GeoTIFF.getGhostValues",
+    "file": "src/geotiff.js",
+    "line": 525,
+    "rawGroupSize": 0
+  },
+  {
+    "id": "E00048",
+    "kind": "method",
+    "name": "GeoTIFF.fromSource",
+    "file": "src/geotiff.js",
+    "line": 563,
+    "rawGroupSize": 7
+  },
+  {
+    "id": "E00049",
+    "kind": "method",
+    "name": "GeoTIFF.close",
+    "file": "src/geotiff.js",
+    "line": 602,
+    "rawGroupSize": 0
+  },
+  {
+    "id": "E00050",
+    "kind": "class",
+    "name": "MultiGeoTIFF",
+    "file": "src/geotiff.js",
+    "line": 617,
+    "hasName": true,
+    "rawGroupSize": 3
+  },
+  {
+    "id": "E00051",
+    "kind": "constructor",
+    "name": "MultiGeoTIFF.constructor",
+    "file": "src/geotiff.js",
+    "line": 623,
+    "rawGroupSize": null
+  },
+  {
+    "id": "E00052",
+    "kind": "method",
+    "name": "MultiGeoTIFF.parseFileDirectoriesPerFile",
+    "file": "src/geotiff.js",
+    "line": 634,
+    "rawGroupSize": 1
+  },
+  {
+    "id": "E00053",
+    "kind": "method",
+    "name": "MultiGeoTIFF.getImage",
+    "file": "src/geotiff.js",
+    "line": 648,
+    "rawGroupSize": 4
+  },
+  {
+    "id": "E00054",
+    "kind": "method",
+    "name": "MultiGeoTIFF.getImageCount",
+    "file": "src/geotiff.js",
+    "line": 680,
+    "rawGroupSize": 6
+  },
+  {
+    "id": "E00055",
+    "kind": "function",
+    "name": "fromUrl",
+    "file": "src/geotiff.js",
+    "line": 703,
+    "rawGroupSize": 0
+  },
+  {
+    "id": "E00056",
+    "kind": "function",
+    "name": "fromCustomClient",
+    "file": "src/geotiff.js",
+    "line": 717,
+    "rawGroupSize": 0
+  },
+  {
+    "id": "E00057",
+    "kind": "function",
+    "name": "fromArrayBuffer",
+    "file": "src/geotiff.js",
+    "line": 730,
+    "rawGroupSize": 0
+  },
+  {
+    "id": "E00058",
+    "kind": "function",
+    "name": "fromFile",
+    "file": "src/geotiff.js",
+    "line": 746,
+    "rawGroupSize": 0
+  },
+  {
+    "id": "E00059",
+    "kind": "function",
+    "name": "fromBlob",
+    "file": "src/geotiff.js",
+    "line": 760,
+    "rawGroupSize": 0
+  },
+  {
+    "id": "E00060",
+    "kind": "function",
+    "name": "fromUrls",
+    "file": "src/geotiff.js",
+    "line": 775,
+    "rawGroupSize": 0
+  },
+  {
+    "id": "E00061",
+    "kind": "function",
+    "name": "writeArrayBuffer",
+    "file": "src/geotiff.js",
+    "line": 792,
+    "rawGroupSize": 0
+  },
+  {
+    "id": "E00062",
+    "kind": "function",
+    "name": "sum",
+    "file": "src/geotiffimage.js",
+    "line": 24,
+    "rawGroupSize": 1
+  },
+  {
+    "id": "E00063",
+    "kind": "function",
+    "name": "arrayForType",
+    "file": "src/geotiffimage.js",
+    "line": 38,
+    "rawGroupSize": 3
+  },
+  {
+    "id": "E00064",
+    "kind": "function",
+    "name": "needsNormalization",
+    "file": "src/geotiffimage.js",
+    "line": 91,
+    "rawGroupSize": 1
+  },
+  {
+    "id": "E00065",
+    "kind": "function",
+    "name": "normalizeArray",
+    "file": "src/geotiffimage.js",
+    "line": 110,
+    "rawGroupSize": 1
+  },
+  {
+    "id": "E00066",
+    "kind": "class",
+    "name": "GeoTIFFImage",
+    "file": "src/geotiffimage.js",
+    "line": 195,
+    "hasName": true,
+    "rawGroupSize": 11
+  },
+  {
+    "id": "E00067",
+    "kind": "constructor",
+    "name": "GeoTIFFImage.constructor",
+    "file": "src/geotiffimage.js",
+    "line": 203,
+    "rawGroupSize": null
+  },
+  {
+    "id": "E00068",
+    "kind": "method",
+    "name": "GeoTIFFImage.getFileDirectory",
+    "file": "src/geotiffimage.js",
+    "line": 223,
+    "rawGroupSize": 0
+  },
+  {
+    "id": "E00069",
+    "kind": "method",
+    "name": "GeoTIFFImage.getGeoKeys",
+    "file": "src/geotiffimage.js",
+    "line": 231,
+    "rawGroupSize": 1
+  },
+  {
+    "id": "E00070",
+    "kind": "method",
+    "name": "GeoTIFFImage.getWidth",
+    "file": "src/geotiffimage.js",
+    "line": 239,
+    "rawGroupSize": 13
+  },
+  {
+    "id": "E00071",
+    "kind": "method",
+    "name": "GeoTIFFImage.getHeight",
+    "file": "src/geotiffimage.js",
+    "line": 247,
+    "rawGroupSize": 12
+  },
+  {
+    "id": "E00072",
+    "kind": "method",
+    "name": "GeoTIFFImage.getSamplesPerPixel",
+    "file": "src/geotiffimage.js",
+    "line": 255,
+    "rawGroupSize": 2
+  },
+  {
+    "id": "E00073",
+    "kind": "method",
+    "name": "GeoTIFFImage.getTileWidth",
+    "file": "src/geotiffimage.js",
+    "line": 263,
+    "rawGroupSize": 5
+  },
+  {
+    "id": "E00074",
+    "kind": "method",
+    "name": "GeoTIFFImage.getTileHeight",
+    "file": "src/geotiffimage.js",
+    "line": 271,
+    "rawGroupSize": 5
+  },
+  {
+    "id": "E00075",
+    "kind": "method",
+    "name": "GeoTIFFImage.getBlockWidth",
+    "file": "src/geotiffimage.js",
+    "line": 282,
+    "rawGroupSize": 0
+  },
+  {
+    "id": "E00076",
+    "kind": "method",
+    "name": "GeoTIFFImage.getBlockHeight",
+    "file": "src/geotiffimage.js",
+    "line": 290,
+    "rawGroupSize": 3
+  },
+  {
+    "id": "E00077",
+    "kind": "method",
+    "name": "GeoTIFFImage.getBytesPerPixel",
+    "file": "src/geotiffimage.js",
+    "line": 303,
+    "rawGroupSize": 2
+  },
+  {
+    "id": "E00078",
+    "kind": "method",
+    "name": "GeoTIFFImage.getSampleByteSize",
+    "file": "src/geotiffimage.js",
+    "line": 318,
+    "rawGroupSize": 3
+  },
+  {
+    "id": "E00079",
+    "kind": "method",
+    "name": "GeoTIFFImage.getReaderForSample",
+    "file": "src/geotiffimage.js",
+    "line": 330,
+    "rawGroupSize": 1
+  },
+  {
+    "id": "E00080",
+    "kind": "method",
+    "name": "GeoTIFFImage.getSampleFormat",
+    "file": "src/geotiffimage.js",
+    "line": 374,
+    "rawGroupSize": 2
+  },
+  {
+    "id": "E00081",
+    "kind": "method",
+    "name": "GeoTIFFImage.getBitsPerSample",
+    "file": "src/geotiffimage.js",
+    "line": 379,
+    "rawGroupSize": 3
+  },
+  {
+    "id": "E00082",
+    "kind": "method",
+    "name": "GeoTIFFImage.getArrayForSample",
+    "file": "src/geotiffimage.js",
+    "line": 389,
+    "rawGroupSize": 2
+  },
+  {
+    "id": "E00083",
+    "kind": "method",
+    "name": "GeoTIFFImage.getTileOrStrip",
+    "file": "src/geotiffimage.js",
+    "line": 405,
+    "rawGroupSize": 2
+  },
+  {
+    "id": "E00084",
+    "kind": "method",
+    "name": "GeoTIFFImage._readRaster",
+    "file": "src/geotiffimage.js",
+    "line": 489,
+    "rawGroupSize": 1
+  },
+  {
+    "id": "E00085",
+    "kind": "method",
+    "name": "GeoTIFFImage.readRasters",
+    "file": "src/geotiffimage.js",
+    "line": 655,
+    "rawGroupSize": 5
+  },
+  {
+    "id": "E00086",
+    "kind": "method",
+    "name": "GeoTIFFImage.readRGB",
+    "file": "src/geotiffimage.js",
+    "line": 763,
+    "rawGroupSize": 0
+  },
+  {
+    "id": "E00087",
+    "kind": "method",
+    "name": "GeoTIFFImage.getTiePoints",
+    "file": "src/geotiffimage.js",
+    "line": 880,
+    "rawGroupSize": 0
+  },
+  {
+    "id": "E00088",
+    "kind": "method",
+    "name": "GeoTIFFImage.getGDALMetadata",
+    "file": "src/geotiffimage.js",
+    "line": 912,
+    "rawGroupSize": 0
+  },
+  {
+    "id": "E00089",
+    "kind": "method",
+    "name": "GeoTIFFImage.getGDALNoData",
+    "file": "src/geotiffimage.js",
+    "line": 940,
+    "rawGroupSize": 1
+  },
+  {
+    "id": "E00090",
+    "kind": "method",
+    "name": "GeoTIFFImage.getOrigin",
+    "file": "src/geotiffimage.js",
+    "line": 953,
+    "rawGroupSize": 3
+  },
+  {
+    "id": "E00091",
+    "kind": "method",
+    "name": "GeoTIFFImage.getResolution",
+    "file": "src/geotiffimage.js",
+    "line": 981,
+    "rawGroupSize": 4
+  },
+  {
+    "id": "E00092",
+    "kind": "method",
+    "name": "GeoTIFFImage.pixelIsArea",
+    "file": "src/geotiffimage.js",
+    "line": 1024,
+    "rawGroupSize": 0
+  },
+  {
+    "id": "E00093",
+    "kind": "method",
+    "name": "GeoTIFFImage.getBoundingBox",
+    "file": "src/geotiffimage.js",
+    "line": 1036,
+    "rawGroupSize": 1
+  },
+  {
+    "id": "E00094",
+    "kind": "function-var",
+    "name": "_writeIFD",
+    "file": "src/geotiffwriter.js",
+    "line": 170,
+    "rawGroupSize": 1
+  },
+  {
+    "id": "E00095",
+    "kind": "function-var",
+    "name": "encodeIfds",
+    "file": "src/geotiffwriter.js",
+    "line": 258,
+    "rawGroupSize": 1
+  },
+  {
+    "id": "E00096",
+    "kind": "function-var",
+    "name": "encodeImage",
+    "file": "src/geotiffwriter.js",
+    "line": 308,
+    "rawGroupSize": 1
+  },
+  {
+    "id": "E00097",
+    "kind": "function",
+    "name": "encodeImage>countsToOffsets",
+    "file": "src/geotiffwriter.js",
+    "line": 328,
+    "rawGroupSize": 2
+  },
+  {
+    "id": "E00098",
+    "kind": "function-var",
+    "name": "convertToTids",
+    "file": "src/geotiffwriter.js",
+    "line": 408,
+    "rawGroupSize": 1
+  },
+  {
+    "id": "E00099",
+    "kind": "function-var",
+    "name": "toArray",
+    "file": "src/geotiffwriter.js",
+    "line": 427,
+    "rawGroupSize": 4
+  },
+  {
+    "id": "E00100",
+    "kind": "function",
+    "name": "writeGeotiff",
+    "file": "src/geotiffwriter.js",
+    "line": 446,
+    "rawGroupSize": 2
+  },
+  {
+    "id": "E00101",
+    "kind": "function",
+    "name": "getFieldTypeSize",
+    "file": "src/globals.js",
+    "line": 56,
+    "rawGroupSize": 7
+  },
+  {
+    "id": "E00102",
+    "kind": "function",
+    "name": "registerTag",
+    "file": "src/globals.js",
+    "line": 268,
+    "rawGroupSize": 3
+  },
+  {
+    "id": "E00103",
+    "kind": "function",
+    "name": "resolveTag",
+    "file": "src/globals.js",
+    "line": 288,
+    "rawGroupSize": 6
+  },
+  {
+    "id": "E00104",
+    "kind": "function",
+    "name": "getTag",
+    "file": "src/globals.js",
+    "line": 299,
+    "rawGroupSize": 0
+  },
+  {
+    "id": "E00105",
+    "kind": "function",
+    "name": "getArrayForSamples",
+    "file": "src/imagefiledirectory.js",
+    "line": 18,
+    "rawGroupSize": 6
+  },
+  {
+    "id": "E00106",
+    "kind": "function",
+    "name": "getDataSliceReader",
+    "file": "src/imagefiledirectory.js",
+    "line": 60,
+    "rawGroupSize": 6
+  },
+  {
+    "id": "E00107",
+    "kind": "function",
+    "name": "getValues",
+    "file": "src/imagefiledirectory.js",
+    "line": 130,
+    "rawGroupSize": 5
+  },
+  {
+    "id": "E00108",
+    "kind": "class",
+    "name": "DeferredArray",
+    "file": "src/imagefiledirectory.js",
+    "line": 170,
+    "hasName": true,
+    "rawGroupSize": 3
+  },
+  {
+    "id": "E00109",
+    "kind": "constructor",
+    "name": "DeferredArray.constructor",
+    "file": "src/imagefiledirectory.js",
+    "line": 179,
+    "rawGroupSize": null
+  },
+  {
+    "id": "E00110",
+    "kind": "method",
+    "name": "DeferredArray.loadAll",
+    "file": "src/imagefiledirectory.js",
+    "line": 197,
+    "rawGroupSize": 1
+  },
+  {
+    "id": "E00111",
+    "kind": "method",
+    "name": "DeferredArray.get",
+    "file": "src/imagefiledirectory.js",
+    "line": 239,
+    "rawGroupSize": 1
+  },
+  {
+    "id": "E00112",
+    "kind": "class",
+    "name": "ImageFileDirectory",
+    "file": "src/imagefiledirectory.js",
+    "line": 278,
+    "hasName": true,
+    "rawGroupSize": 14
+  },
+  {
+    "id": "E00113",
+    "kind": "constructor",
+    "name": "ImageFileDirectory.constructor",
+    "file": "src/imagefiledirectory.js",
+    "line": 288,
+    "rawGroupSize": null
+  },
+  {
+    "id": "E00114",
+    "kind": "method",
+    "name": "ImageFileDirectory.hasTag",
+    "file": "src/imagefiledirectory.js",
+    "line": 300,
+    "rawGroupSize": 7
+  },
+  {
+    "id": "E00115",
+    "kind": "method",
+    "name": "ImageFileDirectory.getValue",
+    "file": "src/imagefiledirectory.js",
+    "line": 314,
+    "rawGroupSize": 29
+  },
+  {
+    "id": "E00116",
+    "kind": "method",
+    "name": "ImageFileDirectory.loadValue",
+    "file": "src/imagefiledirectory.js",
+    "line": 339,
+    "rawGroupSize": 16
+  },
+  {
+    "id": "E00117",
+    "kind": "method",
+    "name": "ImageFileDirectory.loadValueIndexed",
+    "file": "src/imagefiledirectory.js",
+    "line": 380,
+    "rawGroupSize": 4
+  },
+  {
+    "id": "E00118",
+    "kind": "method",
+    "name": "ImageFileDirectory.parseGeoKeyDirectory",
+    "file": "src/imagefiledirectory.js",
+    "line": 405,
+    "rawGroupSize": 1
+  },
+  {
+    "id": "E00119",
+    "kind": "method",
+    "name": "ImageFileDirectory.toObject",
+    "file": "src/imagefiledirectory.js",
+    "line": 440,
+    "rawGroupSize": 0
+  },
+  {
+    "id": "E00120",
+    "kind": "class",
+    "name": "ImageFileDirectoryParser",
+    "file": "src/imagefiledirectory.js",
+    "line": 455,
+    "hasName": true,
+    "rawGroupSize": 2
+  },
+  {
+    "id": "E00121",
+    "kind": "constructor",
+    "name": "ImageFileDirectoryParser.constructor",
+    "file": "src/imagefiledirectory.js",
+    "line": 464,
+    "rawGroupSize": null
+  },
+  {
+    "id": "E00122",
+    "kind": "method",
+    "name": "ImageFileDirectoryParser.getSlice",
+    "file": "src/imagefiledirectory.js",
+    "line": 477,
+    "rawGroupSize": 4
+  },
+  {
+    "id": "E00123",
+    "kind": "method",
+    "name": "ImageFileDirectoryParser.parseFileDirectoryAt",
+    "file": "src/imagefiledirectory.js",
+    "line": 502,
+    "rawGroupSize": 4
+  },
+  {
+    "id": "E00124",
+    "kind": "class",
+    "name": "DummyLogger",
+    "file": "src/logging.js",
+    "line": 4,
+    "hasName": true,
+    "rawGroupSize": 3
+  },
+  {
+    "id": "E00125",
+    "kind": "method",
+    "name": "DummyLogger.log",
+    "file": "src/logging.js",
+    "line": 6,
+    "rawGroupSize": 1
+  },
+  {
+    "id": "E00126",
+    "kind": "method",
+    "name": "DummyLogger.debug",
+    "file": "src/logging.js",
+    "line": 9,
+    "rawGroupSize": 1
+  },
+  {
+    "id": "E00127",
+    "kind": "method",
+    "name": "DummyLogger.info",
+    "file": "src/logging.js",
+    "line": 12,
+    "rawGroupSize": 1
+  },
+  {
+    "id": "E00128",
+    "kind": "method",
+    "name": "DummyLogger.warn",
+    "file": "src/logging.js",
+    "line": 15,
+    "rawGroupSize": 1
+  },
+  {
+    "id": "E00129",
+    "kind": "method",
+    "name": "DummyLogger.error",
+    "file": "src/logging.js",
+    "line": 18,
+    "rawGroupSize": 1
+  },
+  {
+    "id": "E00130",
+    "kind": "method",
+    "name": "DummyLogger.time",
+    "file": "src/logging.js",
+    "line": 21,
+    "rawGroupSize": 1
+  },
+  {
+    "id": "E00131",
+    "kind": "method",
+    "name": "DummyLogger.timeEnd",
+    "file": "src/logging.js",
+    "line": 24,
+    "rawGroupSize": 1
+  },
+  {
+    "id": "E00132",
+    "kind": "function",
+    "name": "setLogger",
+    "file": "src/logging.js",
+    "line": 32,
+    "rawGroupSize": 2
+  },
+  {
+    "id": "E00133",
+    "kind": "function",
+    "name": "debug",
+    "file": "src/logging.js",
+    "line": 37,
+    "rawGroupSize": 0
+  },
+  {
+    "id": "E00134",
+    "kind": "function",
+    "name": "log",
+    "file": "src/logging.js",
+    "line": 42,
+    "rawGroupSize": 0
+  },
+  {
+    "id": "E00135",
+    "kind": "function",
+    "name": "info",
+    "file": "src/logging.js",
+    "line": 47,
+    "rawGroupSize": 0
+  },
+  {
+    "id": "E00136",
+    "kind": "function",
+    "name": "warn",
+    "file": "src/logging.js",
+    "line": 52,
+    "rawGroupSize": 0
+  },
+  {
+    "id": "E00137",
+    "kind": "function",
+    "name": "error",
+    "file": "src/logging.js",
+    "line": 57,
+    "rawGroupSize": 0
+  },
+  {
+    "id": "E00138",
+    "kind": "function",
+    "name": "time",
+    "file": "src/logging.js",
+    "line": 62,
+    "rawGroupSize": 0
+  },
+  {
+    "id": "E00139",
+    "kind": "function",
+    "name": "timeEnd",
+    "file": "src/logging.js",
+    "line": 67,
+    "rawGroupSize": 0
+  },
+  {
+    "id": "E00140",
+    "kind": "class",
+    "name": "WorkerWrapper",
+    "file": "src/pool.js",
+    "line": 13,
+    "hasName": true,
+    "rawGroupSize": 1
+  },
+  {
+    "id": "E00141",
+    "kind": "constructor",
+    "name": "WorkerWrapper.constructor",
+    "file": "src/pool.js",
+    "line": 17,
+    "rawGroupSize": null
+  },
+  {
+    "id": "E00142",
+    "kind": "method",
+    "name": "WorkerWrapper.newJobId",
+    "file": "src/pool.js",
+    "line": 29,
+    "rawGroupSize": 1
+  },
+  {
+    "id": "E00143",
+    "kind": "method",
+    "name": "WorkerWrapper.getJobCount",
+    "file": "src/pool.js",
+    "line": 37,
+    "rawGroupSize": 2
+  },
+  {
+    "id": "E00144",
+    "kind": "method",
+    "name": "WorkerWrapper._onWorkerMessage",
+    "file": "src/pool.js",
+    "line": 42,
+    "rawGroupSize": 1
+  },
+  {
+    "id": "E00145",
+    "kind": "method",
+    "name": "WorkerWrapper.submitJob",
+    "file": "src/pool.js",
+    "line": 61,
+    "rawGroupSize": 1
+  },
+  {
+    "id": "E00146",
+    "kind": "method",
+    "name": "WorkerWrapper.terminate",
+    "file": "src/pool.js",
+    "line": 80,
+    "rawGroupSize": 1
+  },
+  {
+    "id": "E00147",
+    "kind": "class",
+    "name": "Pool",
+    "file": "src/pool.js",
+    "line": 92,
+    "hasName": true,
+    "rawGroupSize": 5
+  },
+  {
+    "id": "E00148",
+    "kind": "constructor",
+    "name": "Pool.constructor",
+    "file": "src/pool.js",
+    "line": 122,
+    "rawGroupSize": null
+  },
+  {
+    "id": "E00149",
+    "kind": "method",
+    "name": "Pool.bindParameters",
+    "file": "src/pool.js",
+    "line": 143,
+    "rawGroupSize": 1
+  },
+  {
+    "id": "E00150",
+    "kind": "method",
+    "name": "Pool.destroy",
+    "file": "src/pool.js",
+    "line": 161,
+    "rawGroupSize": 0
+  },
+  {
+    "id": "E00151",
+    "kind": "function",
+    "name": "decodeRowAcc",
+    "file": "src/predictor.js",
+    "line": 5,
+    "rawGroupSize": 1
+  },
+  {
+    "id": "E00152",
+    "kind": "function",
+    "name": "decodeRowFloatingPoint",
+    "file": "src/predictor.js",
+    "line": 23,
+    "rawGroupSize": 1
+  },
+  {
+    "id": "E00153",
+    "kind": "function",
+    "name": "applyPredictor",
+    "file": "src/predictor.js",
+    "line": 53,
+    "rawGroupSize": 2
+  },
+  {
+    "id": "E00154",
+    "kind": "function",
+    "name": "copyNewSize",
+    "file": "src/resample.js",
+    "line": 11,
+    "rawGroupSize": 4
+  },
+  {
+    "id": "E00155",
+    "kind": "function",
+    "name": "resampleNearest",
+    "file": "src/resample.js",
+    "line": 24,
+    "rawGroupSize": 1
+  },
+  {
+    "id": "E00156",
+    "kind": "function",
+    "name": "lerp",
+    "file": "src/resample.js",
+    "line": 48,
+    "rawGroupSize": 6
+  },
+  {
+    "id": "E00157",
+    "kind": "function",
+    "name": "resampleBilinear",
+    "file": "src/resample.js",
+    "line": 61,
+    "rawGroupSize": 1
+  },
+  {
+    "id": "E00158",
+    "kind": "function",
+    "name": "resample",
+    "file": "src/resample.js",
+    "line": 107,
+    "rawGroupSize": 2
+  },
+  {
+    "id": "E00159",
+    "kind": "function",
+    "name": "resampleNearestInterleaved",
+    "file": "src/resample.js",
+    "line": 130,
+    "rawGroupSize": 1
+  },
+  {
+    "id": "E00160",
+    "kind": "function",
+    "name": "resampleBilinearInterleaved",
+    "file": "src/resample.js",
+    "line": 160,
+    "rawGroupSize": 1
+  },
+  {
+    "id": "E00161",
+    "kind": "function",
+    "name": "resampleInterleaved",
+    "file": "src/resample.js",
+    "line": 208,
+    "rawGroupSize": 2
+  },
+  {
+    "id": "E00162",
+    "kind": "function",
+    "name": "fromWhiteIsZero",
+    "file": "src/rgb.ts",
+    "line": 3,
+    "rawGroupSize": 2
+  },
+  {
+    "id": "E00163",
+    "kind": "function",
+    "name": "fromBlackIsZero",
+    "file": "src/rgb.ts",
+    "line": 19,
+    "rawGroupSize": 2
+  },
+  {
+    "id": "E00164",
+    "kind": "function",
+    "name": "fromPalette",
+    "file": "src/rgb.ts",
+    "line": 35,
+    "rawGroupSize": 2
+  },
+  {
+    "id": "E00165",
+    "kind": "function",
+    "name": "fromCMYK",
+    "file": "src/rgb.ts",
+    "line": 52,
+    "rawGroupSize": 2
+  },
+  {
+    "id": "E00166",
+    "kind": "function",
+    "name": "fromYCbCr",
+    "file": "src/rgb.ts",
+    "line": 68,
+    "rawGroupSize": 2
+  },
+  {
+    "id": "E00167",
+    "kind": "function",
+    "name": "fromCIELab",
+    "file": "src/rgb.ts",
+    "line": 91,
+    "rawGroupSize": 2
+  },
+  {
+    "id": "E00168",
+    "kind": "function",
+    "name": "assign",
+    "file": "src/utils.ts",
+    "line": 1,
+    "rawGroupSize": 3
+  },
+  {
+    "id": "E00169",
+    "kind": "function",
+    "name": "chunk",
+    "file": "src/utils.ts",
+    "line": 13,
+    "rawGroupSize": 0
+  },
+  {
+    "id": "E00170",
+    "kind": "function",
+    "name": "endsWith",
+    "file": "src/utils.ts",
+    "line": 26,
+    "rawGroupSize": 3
+  },
+  {
+    "id": "E00171",
+    "kind": "function",
+    "name": "forEach",
+    "file": "src/utils.ts",
+    "line": 34,
+    "rawGroupSize": 2
+  },
+  {
+    "id": "E00172",
+    "kind": "function",
+    "name": "invert",
+    "file": "src/utils.ts",
+    "line": 44,
+    "rawGroupSize": 2
+  },
+  {
+    "id": "E00173",
+    "kind": "function",
+    "name": "range",
+    "file": "src/utils.ts",
+    "line": 57,
+    "rawGroupSize": 0
+  },
+  {
+    "id": "E00174",
+    "kind": "function",
+    "name": "times",
+    "file": "src/utils.ts",
+    "line": 65,
+    "rawGroupSize": 15
+  },
+  {
+    "id": "E00175",
+    "kind": "function",
+    "name": "toArray",
+    "file": "src/utils.ts",
+    "line": 73,
+    "rawGroupSize": 1
+  },
+  {
+    "id": "E00176",
+    "kind": "function",
+    "name": "toArrayRecursively",
+    "file": "src/utils.ts",
+    "line": 82,
+    "rawGroupSize": 1
+  },
+  {
+    "id": "E00177",
+    "kind": "function",
+    "name": "isArrayLike",
+    "file": "src/utils.ts",
+    "line": 89,
+    "rawGroupSize": 1
+  },
+  {
+    "id": "E00178",
+    "kind": "function",
+    "name": "parseContentRange",
+    "file": "src/utils.ts",
+    "line": 97,
+    "rawGroupSize": 0
+  },
+  {
+    "id": "E00179",
+    "kind": "function-var",
+    "name": "parseContentRange>parseInt",
+    "file": "src/utils.ts",
+    "line": 111,
+    "rawGroupSize": 4
+  },
+  {
+    "id": "E00180",
+    "kind": "function",
+    "name": "wait",
+    "file": "src/utils.ts",
+    "line": 148,
+    "rawGroupSize": 2
+  },
+  {
+    "id": "E00181",
+    "kind": "function",
+    "name": "zip",
+    "file": "src/utils.ts",
+    "line": 152,
+    "rawGroupSize": 2
+  },
+  {
+    "id": "E00182",
+    "kind": "class",
+    "name": "AbortError",
+    "file": "src/utils.ts",
+    "line": 159,
+    "hasName": true,
+    "rawGroupSize": 11
+  },
+  {
+    "id": "E00183",
+    "kind": "constructor",
+    "name": "AbortError.constructor",
+    "file": "src/utils.ts",
+    "line": 161,
+    "rawGroupSize": null
+  },
+  {
+    "id": "E00184",
+    "kind": "class",
+    "name": "CustomAggregateError",
+    "file": "src/utils.ts",
+    "line": 175,
+    "hasName": true,
+    "rawGroupSize": 1
+  },
+  {
+    "id": "E00185",
+    "kind": "constructor",
+    "name": "CustomAggregateError.constructor",
+    "file": "src/utils.ts",
+    "line": 178,
+    "rawGroupSize": null
+  },
+  {
+    "id": "E00186",
+    "kind": "function",
+    "name": "isTypedFloatArray",
+    "file": "src/utils.ts",
+    "line": 188,
+    "rawGroupSize": 2
+  },
+  {
+    "id": "E00187",
+    "kind": "function",
+    "name": "isTypedIntArray",
+    "file": "src/utils.ts",
+    "line": 200,
+    "rawGroupSize": 2
+  },
+  {
+    "id": "E00188",
+    "kind": "function",
+    "name": "isTypedUintArray",
+    "file": "src/utils.ts",
+    "line": 212,
+    "rawGroupSize": 2
+  },
+  {
+    "id": "E00189",
+    "kind": "class",
+    "name": "BaseDecoder",
+    "file": "src/compression/basedecoder.js",
+    "line": 13,
+    "hasName": true,
+    "rawGroupSize": 25
+  },
+  {
+    "id": "E00190",
+    "kind": "constructor",
+    "name": "BaseDecoder.constructor",
+    "file": "src/compression/basedecoder.js",
+    "line": 17,
+    "rawGroupSize": null
+  },
+  {
+    "id": "E00191",
+    "kind": "method",
+    "name": "BaseDecoder.decodeBlock",
+    "file": "src/compression/basedecoder.js",
+    "line": 26,
+    "rawGroupSize": 9
+  },
+  {
+    "id": "E00192",
+    "kind": "method",
+    "name": "BaseDecoder.decode",
+    "file": "src/compression/basedecoder.js",
+    "line": 34,
+    "rawGroupSize": 3
+  },
+  {
+    "id": "E00193",
+    "kind": "class",
+    "name": "DeflateDecoder",
+    "file": "src/compression/deflate.js",
+    "line": 4,
+    "hasName": true,
+    "rawGroupSize": 1
+  },
+  {
+    "id": "E00194",
+    "kind": "method",
+    "name": "DeflateDecoder.decodeBlock",
+    "file": "src/compression/deflate.js",
+    "line": 6,
+    "rawGroupSize": 9
+  },
+  {
+    "id": "E00195",
+    "kind": "function",
+    "name": "defaultDecoderParameterFn",
+    "file": "src/compression/index.js",
+    "line": 18,
+    "rawGroupSize": 4
+  },
+  {
+    "id": "E00196",
+    "kind": "function",
+    "name": "addDecoder",
+    "file": "src/compression/index.js",
+    "line": 43,
+    "rawGroupSize": 3
+  },
+  {
+    "id": "E00197",
+    "kind": "function",
+    "name": "getDecoderParameters",
+    "file": "src/compression/index.js",
+    "line": 57,
+    "rawGroupSize": 2
+  },
+  {
+    "id": "E00198",
+    "kind": "function",
+    "name": "getDecoder",
+    "file": "src/compression/index.js",
+    "line": 71,
+    "rawGroupSize": 8
+  },
+  {
+    "id": "E00199",
+    "kind": "function",
+    "name": "preferWorker",
+    "file": "src/compression/index.js",
+    "line": 85,
+    "rawGroupSize": 2
+  },
+  {
+    "id": "E00200",
+    "kind": "function",
+    "name": "buildHuffmanTable",
+    "file": "src/compression/jpeg.js",
+    "line": 90,
+    "rawGroupSize": 2
+  },
+  {
+    "id": "E00201",
+    "kind": "function",
+    "name": "decodeScan",
+    "file": "src/compression/jpeg.js",
+    "line": 147,
+    "rawGroupSize": 1
+  },
+  {
+    "id": "E00202",
+    "kind": "function",
+    "name": "decodeScan>readBit",
+    "file": "src/compression/jpeg.js",
+    "line": 163,
+    "rawGroupSize": 6
+  },
+  {
+    "id": "E00203",
+    "kind": "function",
+    "name": "decodeScan>decodeHuffman",
+    "file": "src/compression/jpeg.js",
+    "line": 180,
+    "rawGroupSize": 5
+  },
+  {
+    "id": "E00204",
+    "kind": "function",
+    "name": "decodeScan>receive",
+    "file": "src/compression/jpeg.js",
+    "line": 199,
+    "rawGroupSize": 3
+  },
+  {
+    "id": "E00205",
+    "kind": "function",
+    "name": "decodeScan>receiveAndExtend",
+    "file": "src/compression/jpeg.js",
+    "line": 213,
+    "rawGroupSize": 5
+  },
+  {
+    "id": "E00206",
+    "kind": "function",
+    "name": "decodeScan>decodeBaseline",
+    "file": "src/compression/jpeg.js",
+    "line": 227,
+    "rawGroupSize": 1
+  },
+  {
+    "id": "E00207",
+    "kind": "function",
+    "name": "decodeScan>decodeDCFirst",
+    "file": "src/compression/jpeg.js",
+    "line": 270,
+    "rawGroupSize": 1
+  },
+  {
+    "id": "E00208",
+    "kind": "function",
+    "name": "decodeScan>decodeDCSuccessive",
+    "file": "src/compression/jpeg.js",
+    "line": 290,
+    "rawGroupSize": 1
+  },
+  {
+    "id": "E00209",
+    "kind": "function",
+    "name": "decodeScan>decodeACFirst",
+    "file": "src/compression/jpeg.js",
+    "line": 302,
+    "rawGroupSize": 1
+  },
+  {
+    "id": "E00210",
+    "kind": "function",
+    "name": "decodeScan>decodeACSuccessive",
+    "file": "src/compression/jpeg.js",
+    "line": 345,
+    "rawGroupSize": 1
+  },
+  {
+    "id": "E00211",
+    "kind": "function",
+    "name": "decodeScan>decodeMcu",
+    "file": "src/compression/jpeg.js",
+    "line": 440,
+    "rawGroupSize": 1
+  },
+  {
+    "id": "E00212",
+    "kind": "function",
+    "name": "decodeScan>decodeBlock",
+    "file": "src/compression/jpeg.js",
+    "line": 455,
+    "rawGroupSize": 1
+  },
+  {
+    "id": "E00213",
+    "kind": "function",
+    "name": "buildComponentData",
+    "file": "src/compression/jpeg.js",
+    "line": 545,
+    "rawGroupSize": 1
+  },
+  {
+    "id": "E00214",
+    "kind": "function",
+    "name": "buildComponentData>quantizeAndInverse",
+    "file": "src/compression/jpeg.js",
+    "line": 565,
+    "rawGroupSize": 1
+  },
+  {
+    "id": "E00215",
+    "kind": "class",
+    "name": "JpegStreamReader",
+    "file": "src/compression/jpeg.js",
+    "line": 759,
+    "hasName": true,
+    "rawGroupSize": 1
+  },
+  {
+    "id": "E00216",
+    "kind": "constructor",
+    "name": "JpegStreamReader.constructor",
+    "file": "src/compression/jpeg.js",
+    "line": 760,
+    "rawGroupSize": null
+  },
+  {
+    "id": "E00217",
+    "kind": "method",
+    "name": "JpegStreamReader.resetFrames",
+    "file": "src/compression/jpeg.js",
+    "line": 777,
+    "rawGroupSize": 1
+  },
+  {
+    "id": "E00218",
+    "kind": "method",
+    "name": "JpegStreamReader.parse",
+    "file": "src/compression/jpeg.js",
+    "line": 782,
+    "rawGroupSize": 2
+  },
+  {
+    "id": "E00219",
+    "kind": "function",
+    "name": "JpegStreamReader.parse>readUint16",
+    "file": "src/compression/jpeg.js",
+    "line": 785,
+    "rawGroupSize": 13
+  },
+  {
+    "id": "E00220",
+    "kind": "function",
+    "name": "JpegStreamReader.parse>readDataBlock",
+    "file": "src/compression/jpeg.js",
+    "line": 790,
+    "rawGroupSize": 1
+  },
+  {
+    "id": "E00221",
+    "kind": "function",
+    "name": "JpegStreamReader.parse>prepareComponents",
+    "file": "src/compression/jpeg.js",
+    "line": 797,
+    "rawGroupSize": 1
+  },
+  {
+    "id": "E00222",
+    "kind": "method",
+    "name": "JpegStreamReader.getResult",
+    "file": "src/compression/jpeg.js",
+    "line": 1045,
+    "rawGroupSize": 1
+  },
+  {
+    "id": "E00223",
+    "kind": "class",
+    "name": "JpegDecoder",
+    "file": "src/compression/jpeg.js",
+    "line": 1098,
+    "hasName": true,
+    "rawGroupSize": 1
+  },
+  {
+    "id": "E00224",
+    "kind": "constructor",
+    "name": "JpegDecoder.constructor",
+    "file": "src/compression/jpeg.js",
+    "line": 1102,
+    "rawGroupSize": null
+  },
+  {
+    "id": "E00225",
+    "kind": "method",
+    "name": "JpegDecoder.decodeBlock",
+    "file": "src/compression/jpeg.js",
+    "line": 1111,
+    "rawGroupSize": 9
+  },
+  {
+    "id": "E00226",
+    "kind": "class",
+    "name": "LercDecoder",
+    "file": "src/compression/lerc.js",
+    "line": 14,
+    "hasName": true,
+    "rawGroupSize": 1
+  },
+  {
+    "id": "E00227",
+    "kind": "method",
+    "name": "LercDecoder.decodeBlock",
+    "file": "src/compression/lerc.js",
+    "line": 19,
+    "rawGroupSize": 9
+  },
+  {
+    "id": "E00228",
+    "kind": "function",
+    "name": "getByte",
+    "file": "src/compression/lzw.js",
+    "line": 14,
+    "rawGroupSize": 1
+  },
+  {
+    "id": "E00229",
+    "kind": "function",
+    "name": "appendReversed",
+    "file": "src/compression/lzw.js",
+    "line": 48,
+    "rawGroupSize": 3
+  },
+  {
+    "id": "E00230",
+    "kind": "function",
+    "name": "decompress",
+    "file": "src/compression/lzw.js",
+    "line": 58,
+    "rawGroupSize": 1
+  },
+  {
+    "id": "E00231",
+    "kind": "function",
+    "name": "decompress>initDictionary",
+    "file": "src/compression/lzw.js",
+    "line": 69,
+    "rawGroupSize": 2
+  },
+  {
+    "id": "E00232",
+    "kind": "function",
+    "name": "decompress>getNext",
+    "file": "src/compression/lzw.js",
+    "line": 74,
+    "rawGroupSize": 4
+  },
+  {
+    "id": "E00233",
+    "kind": "function",
+    "name": "decompress>addToDictionary",
+    "file": "src/compression/lzw.js",
+    "line": 83,
+    "rawGroupSize": 2
+  },
+  {
+    "id": "E00234",
+    "kind": "function",
+    "name": "decompress>getDictionaryReversed",
+    "file": "src/compression/lzw.js",
+    "line": 90,
+    "rawGroupSize": 3
+  },
+  {
+    "id": "E00235",
+    "kind": "class",
+    "name": "LZWDecoder",
+    "file": "src/compression/lzw.js",
+    "line": 153,
+    "hasName": true,
+    "rawGroupSize": 1
+  },
+  {
+    "id": "E00236",
+    "kind": "method",
+    "name": "LZWDecoder.decodeBlock",
+    "file": "src/compression/lzw.js",
+    "line": 155,
+    "rawGroupSize": 9
+  },
+  {
+    "id": "E00237",
+    "kind": "class",
+    "name": "PackbitsDecoder",
+    "file": "src/compression/packbits.js",
+    "line": 3,
+    "hasName": true,
+    "rawGroupSize": 1
+  },
+  {
+    "id": "E00238",
+    "kind": "method",
+    "name": "PackbitsDecoder.decodeBlock",
+    "file": "src/compression/packbits.js",
+    "line": 5,
+    "rawGroupSize": 9
+  },
+  {
+    "id": "E00239",
+    "kind": "class",
+    "name": "RawDecoder",
+    "file": "src/compression/raw.js",
+    "line": 3,
+    "hasName": true,
+    "rawGroupSize": 1
+  },
+  {
+    "id": "E00240",
+    "kind": "method",
+    "name": "RawDecoder.decodeBlock",
+    "file": "src/compression/raw.js",
+    "line": 5,
+    "rawGroupSize": 9
+  },
+  {
+    "id": "E00241",
+    "kind": "class",
+    "name": "WebImageDecoder",
+    "file": "src/compression/webimage.js",
+    "line": 9,
+    "hasName": true,
+    "rawGroupSize": 1
+  },
+  {
+    "id": "E00242",
+    "kind": "constructor",
+    "name": "WebImageDecoder.constructor",
+    "file": "src/compression/webimage.js",
+    "line": 13,
+    "rawGroupSize": null
+  },
+  {
+    "id": "E00243",
+    "kind": "method",
+    "name": "WebImageDecoder.decodeBlock",
+    "file": "src/compression/webimage.js",
+    "line": 23,
+    "rawGroupSize": 9
+  },
+  {
+    "id": "E00244",
+    "kind": "class",
+    "name": "ZstdDecoder",
+    "file": "src/compression/zstd.js",
+    "line": 6,
+    "hasName": true,
+    "rawGroupSize": 1
+  },
+  {
+    "id": "E00245",
+    "kind": "method",
+    "name": "ZstdDecoder.decodeBlock",
+    "file": "src/compression/zstd.js",
+    "line": 8,
+    "rawGroupSize": 9
+  },
+  {
+    "id": "E00246",
+    "kind": "class",
+    "name": "ArrayBufferSource",
+    "file": "src/source/arraybuffer.js",
+    "line": 4,
+    "hasName": true,
+    "rawGroupSize": 1
+  },
+  {
+    "id": "E00247",
+    "kind": "constructor",
+    "name": "ArrayBufferSource.constructor",
+    "file": "src/source/arraybuffer.js",
+    "line": 8,
+    "rawGroupSize": null
+  },
+  {
+    "id": "E00248",
+    "kind": "method",
+    "name": "ArrayBufferSource.fetchSlice",
+    "file": "src/source/arraybuffer.js",
+    "line": 18,
+    "rawGroupSize": 8
+  },
+  {
+    "id": "E00249",
+    "kind": "function",
+    "name": "makeBufferSource",
+    "file": "src/source/arraybuffer.js",
+    "line": 31,
+    "rawGroupSize": 2
+  },
+  {
+    "id": "E00250",
+    "kind": "class",
+    "name": "BaseSource",
+    "file": "src/source/basesource.js",
+    "line": 9,
+    "hasName": true,
+    "rawGroupSize": 23
+  },
+  {
+    "id": "E00251",
+    "kind": "method",
+    "name": "BaseSource.fetch",
+    "file": "src/source/basesource.js",
+    "line": 15,
+    "rawGroupSize": 8
+  },
+  {
+    "id": "E00252",
+    "kind": "method",
+    "name": "BaseSource.fetchSlice",
+    "file": "src/source/basesource.js",
+    "line": 26,
+    "rawGroupSize": 8
+  },
+  {
+    "id": "E00253",
+    "kind": "method",
+    "name": "BaseSource.get:fileSize",
+    "file": "src/source/basesource.js",
+    "line": 34,
+    "rawGroupSize": 6
+  },
+  {
+    "id": "E00254",
+    "kind": "method",
+    "name": "BaseSource.close",
+    "file": "src/source/basesource.js",
+    "line": 38,
+    "rawGroupSize": 3
+  },
+  {
+    "id": "E00255",
+    "kind": "class",
+    "name": "Block",
+    "file": "src/source/blockedsource.js",
+    "line": 5,
+    "hasName": true,
+    "rawGroupSize": 3
+  },
+  {
+    "id": "E00256",
+    "kind": "constructor",
+    "name": "Block.constructor",
+    "file": "src/source/blockedsource.js",
+    "line": 12,
+    "rawGroupSize": null
+  },
+  {
+    "id": "E00257",
+    "kind": "method",
+    "name": "Block.get:top",
+    "file": "src/source/blockedsource.js",
+    "line": 21,
+    "rawGroupSize": 1
+  },
+  {
+    "id": "E00258",
+    "kind": "class",
+    "name": "BlockGroup",
+    "file": "src/source/blockedsource.js",
+    "line": 26,
+    "hasName": true,
+    "rawGroupSize": 3
+  },
+  {
+    "id": "E00259",
+    "kind": "constructor",
+    "name": "BlockGroup.constructor",
+    "file": "src/source/blockedsource.js",
+    "line": 33,
+    "rawGroupSize": null
+  },
+  {
+    "id": "E00260",
+    "kind": "class",
+    "name": "BlockedSource",
+    "file": "src/source/blockedsource.js",
+    "line": 40,
+    "hasName": true,
+    "rawGroupSize": 2
+  },
+  {
+    "id": "E00261",
+    "kind": "constructor",
+    "name": "BlockedSource.constructor",
+    "file": "src/source/blockedsource.js",
+    "line": 48,
+    "rawGroupSize": null
+  },
+  {
+    "id": "E00262",
+    "kind": "method",
+    "name": "BlockedSource.get:fileSize",
+    "file": "src/source/blockedsource.js",
+    "line": 72,
+    "rawGroupSize": 6
+  },
+  {
+    "id": "E00263",
+    "kind": "method",
+    "name": "BlockedSource.fetch",
+    "file": "src/source/blockedsource.js",
+    "line": 81,
+    "rawGroupSize": 8
+  },
+  {
+    "id": "E00264",
+    "kind": "method",
+    "name": "BlockedSource.fetchBlocks",
+    "file": "src/source/blockedsource.js",
+    "line": 167,
+    "rawGroupSize": 2
+  },
+  {
+    "id": "E00265",
+    "kind": "method",
+    "name": "BlockedSource.groupBlocks",
+    "file": "src/source/blockedsource.js",
+    "line": 219,
+    "rawGroupSize": 1
+  },
+  {
+    "id": "E00266",
+    "kind": "method",
+    "name": "BlockedSource.readSliceData",
+    "file": "src/source/blockedsource.js",
+    "line": 258,
+    "rawGroupSize": 1
+  },
+  {
+    "id": "E00267",
+    "kind": "function",
+    "name": "closeAsync",
+    "file": "src/source/file.js",
+    "line": 8,
+    "rawGroupSize": 1
+  },
+  {
+    "id": "E00268",
+    "kind": "function",
+    "name": "openAsync",
+    "file": "src/source/file.js",
+    "line": 26,
+    "rawGroupSize": 1
+  },
+  {
+    "id": "E00269",
+    "kind": "function",
+    "name": "readAsync",
+    "file": "src/source/file.js",
+    "line": 46,
+    "rawGroupSize": 1
+  },
+  {
+    "id": "E00270",
+    "kind": "class",
+    "name": "FileSource",
+    "file": "src/source/file.js",
+    "line": 58,
+    "hasName": true,
+    "rawGroupSize": 1
+  },
+  {
+    "id": "E00271",
+    "kind": "constructor",
+    "name": "FileSource.constructor",
+    "file": "src/source/file.js",
+    "line": 62,
+    "rawGroupSize": null
+  },
+  {
+    "id": "E00272",
+    "kind": "method",
+    "name": "FileSource.fetchSlice",
+    "file": "src/source/file.js",
+    "line": 73,
+    "rawGroupSize": 8
+  },
+  {
+    "id": "E00273",
+    "kind": "method",
+    "name": "FileSource.close",
+    "file": "src/source/file.js",
+    "line": 90,
+    "rawGroupSize": 3
+  },
+  {
+    "id": "E00274",
+    "kind": "function",
+    "name": "makeFileSource",
+    "file": "src/source/file.js",
+    "line": 97,
+    "rawGroupSize": 2
+  },
+  {
+    "id": "E00275",
+    "kind": "class",
+    "name": "FileReaderSource",
+    "file": "src/source/filereader.js",
+    "line": 3,
+    "hasName": true,
+    "rawGroupSize": 2
+  },
+  {
+    "id": "E00276",
+    "kind": "constructor",
+    "name": "FileReaderSource.constructor",
+    "file": "src/source/filereader.js",
+    "line": 7,
+    "rawGroupSize": null
+  },
+  {
+    "id": "E00277",
+    "kind": "method",
+    "name": "FileReaderSource.fetchSlice",
+    "file": "src/source/filereader.js",
+    "line": 17,
+    "rawGroupSize": 8
+  },
+  {
+    "id": "E00278",
+    "kind": "function",
+    "name": "makeFileReaderSource",
+    "file": "src/source/filereader.js",
+    "line": 42,
+    "rawGroupSize": 2
+  },
+  {
+    "id": "E00279",
+    "kind": "function",
+    "name": "itemsToObject",
+    "file": "src/source/httputils.js",
+    "line": 9,
+    "rawGroupSize": 2
+  },
+  {
+    "id": "E00280",
+    "kind": "function",
+    "name": "parseHeaders",
+    "file": "src/source/httputils.js",
+    "line": 26,
+    "rawGroupSize": 1
+  },
+  {
+    "id": "E00281",
+    "kind": "function",
+    "name": "parseContentType",
+    "file": "src/source/httputils.js",
+    "line": 45,
+    "rawGroupSize": 2
+  },
+  {
+    "id": "E00282",
+    "kind": "function",
+    "name": "parseContentRange",
+    "file": "src/source/httputils.js",
+    "line": 59,
+    "rawGroupSize": 4
+  },
+  {
+    "id": "E00283",
+    "kind": "function",
+    "name": "parseByteRanges",
+    "file": "src/source/httputils.js",
+    "line": 83,
+    "rawGroupSize": 2
+  },
+  {
+    "id": "E00284",
+    "kind": "class",
+    "name": "RemoteSource",
+    "file": "src/source/remote.js",
+    "line": 23,
+    "hasName": true,
+    "rawGroupSize": 4
+  },
+  {
+    "id": "E00285",
+    "kind": "constructor",
+    "name": "RemoteSource.constructor",
+    "file": "src/source/remote.js",
+    "line": 28,
+    "rawGroupSize": null
+  },
+  {
+    "id": "E00286",
+    "kind": "method",
+    "name": "RemoteSource.fetch",
+    "file": "src/source/remote.js",
+    "line": 42,
+    "rawGroupSize": 8
+  },
+  {
+    "id": "E00287",
+    "kind": "method",
+    "name": "RemoteSource.fetchSlices",
+    "file": "src/source/remote.js",
+    "line": 70,
+    "rawGroupSize": 1
+  },
+  {
+    "id": "E00288",
+    "kind": "method",
+    "name": "RemoteSource.fetchSlice",
+    "file": "src/source/remote.js",
+    "line": 132,
+    "rawGroupSize": 8
+  },
+  {
+    "id": "E00289",
+    "kind": "method",
+    "name": "RemoteSource.get:fileSize",
+    "file": "src/source/remote.js",
+    "line": 171,
+    "rawGroupSize": 6
+  },
+  {
+    "id": "E00290",
+    "kind": "function",
+    "name": "maybeWrapInBlockedSource",
+    "file": "src/source/remote.js",
+    "line": 181,
+    "rawGroupSize": 4
+  },
+  {
+    "id": "E00291",
+    "kind": "function",
+    "name": "makeFetchSource",
+    "file": "src/source/remote.js",
+    "line": 193,
+    "rawGroupSize": 1
+  },
+  {
+    "id": "E00292",
+    "kind": "function",
+    "name": "makeXHRSource",
+    "file": "src/source/remote.js",
+    "line": 204,
+    "rawGroupSize": 1
+  },
+  {
+    "id": "E00293",
+    "kind": "function",
+    "name": "makeHttpSource",
+    "file": "src/source/remote.js",
+    "line": 215,
+    "rawGroupSize": 1
+  },
+  {
+    "id": "E00294",
+    "kind": "function",
+    "name": "makeCustomSource",
+    "file": "src/source/remote.js",
+    "line": 226,
+    "rawGroupSize": 3
+  },
+  {
+    "id": "E00295",
+    "kind": "function",
+    "name": "makeRemoteSource",
+    "file": "src/source/remote.js",
+    "line": 236,
+    "rawGroupSize": 5
+  },
+  {
+    "id": "E00296",
+    "kind": "function",
+    "name": "create",
+    "file": "src/worker/create.js",
+    "line": 4,
+    "rawGroupSize": 2
+  },
+  {
+    "id": "E00297",
+    "kind": "class",
+    "name": "BaseResponse",
+    "file": "src/source/client/base.js",
+    "line": 1,
+    "hasName": true,
+    "rawGroupSize": 9
+  },
+  {
+    "id": "E00298",
+    "kind": "method",
+    "name": "BaseResponse.get:ok",
+    "file": "src/source/client/base.js",
+    "line": 5,
+    "rawGroupSize": 2
+  },
+  {
+    "id": "E00299",
+    "kind": "method",
+    "name": "BaseResponse.get:status",
+    "file": "src/source/client/base.js",
+    "line": 13,
+    "rawGroupSize": 7
+  },
+  {
+    "id": "E00300",
+    "kind": "method",
+    "name": "BaseResponse.getHeader",
+    "file": "src/source/client/base.js",
+    "line": 22,
+    "rawGroupSize": 6
+  },
+  {
+    "id": "E00301",
+    "kind": "method",
+    "name": "BaseResponse.getData",
+    "file": "src/source/client/base.js",
+    "line": 29,
+    "rawGroupSize": 8
+  },
+  {
+    "id": "E00302",
+    "kind": "class",
+    "name": "BaseClient",
+    "file": "src/source/client/base.js",
+    "line": 34,
+    "hasName": true,
+    "rawGroupSize": 12
+  },
+  {
+    "id": "E00303",
+    "kind": "constructor",
+    "name": "BaseClient.constructor",
+    "file": "src/source/client/base.js",
+    "line": 36,
+    "rawGroupSize": null
+  },
+  {
+    "id": "E00304",
+    "kind": "method",
+    "name": "BaseClient.request",
+    "file": "src/source/client/base.js",
+    "line": 45,
+    "rawGroupSize": 5
+  },
+  {
+    "id": "E00305",
+    "kind": "class",
+    "name": "FetchResponse",
+    "file": "src/source/client/fetch.js",
+    "line": 3,
+    "hasName": true,
+    "rawGroupSize": 2
+  },
+  {
+    "id": "E00306",
+    "kind": "constructor",
+    "name": "FetchResponse.constructor",
+    "file": "src/source/client/fetch.js",
+    "line": 8,
+    "rawGroupSize": null
+  },
+  {
+    "id": "E00307",
+    "kind": "method",
+    "name": "FetchResponse.get:status",
+    "file": "src/source/client/fetch.js",
+    "line": 13,
+    "rawGroupSize": 7
+  },
+  {
+    "id": "E00308",
+    "kind": "method",
+    "name": "FetchResponse.getHeader",
+    "file": "src/source/client/fetch.js",
+    "line": 21,
+    "rawGroupSize": 6
+  },
+  {
+    "id": "E00309",
+    "kind": "method",
+    "name": "FetchResponse.getData",
+    "file": "src/source/client/fetch.js",
+    "line": 25,
+    "rawGroupSize": 8
+  },
+  {
+    "id": "E00310",
+    "kind": "class",
+    "name": "FetchClient",
+    "file": "src/source/client/fetch.js",
+    "line": 34,
+    "hasName": true,
+    "rawGroupSize": 2
+  },
+  {
+    "id": "E00311",
+    "kind": "constructor",
+    "name": "FetchClient.constructor",
+    "file": "src/source/client/fetch.js",
+    "line": 39,
+    "rawGroupSize": null
+  },
+  {
+    "id": "E00312",
+    "kind": "method",
+    "name": "FetchClient.request",
+    "file": "src/source/client/fetch.js",
+    "line": 48,
+    "rawGroupSize": 5
+  },
+  {
+    "id": "E00313",
+    "kind": "class",
+    "name": "HttpResponse",
+    "file": "src/source/client/http.js",
+    "line": 8,
+    "hasName": true,
+    "rawGroupSize": 2
+  },
+  {
+    "id": "E00314",
+    "kind": "constructor",
+    "name": "HttpResponse.constructor",
+    "file": "src/source/client/http.js",
+    "line": 14,
+    "rawGroupSize": null
+  },
+  {
+    "id": "E00315",
+    "kind": "method",
+    "name": "HttpResponse.get:status",
+    "file": "src/source/client/http.js",
+    "line": 20,
+    "rawGroupSize": 7
+  },
+  {
+    "id": "E00316",
+    "kind": "method",
+    "name": "HttpResponse.getHeader",
+    "file": "src/source/client/http.js",
+    "line": 28,
+    "rawGroupSize": 6
+  },
+  {
+    "id": "E00317",
+    "kind": "method",
+    "name": "HttpResponse.getData",
+    "file": "src/source/client/http.js",
+    "line": 33,
+    "rawGroupSize": 8
+  },
+  {
+    "id": "E00318",
+    "kind": "class",
+    "name": "HttpClient",
+    "file": "src/source/client/http.js",
+    "line": 39,
+    "hasName": true,
+    "rawGroupSize": 2
+  },
+  {
+    "id": "E00319",
+    "kind": "constructor",
+    "name": "HttpClient.constructor",
+    "file": "src/source/client/http.js",
+    "line": 41,
+    "rawGroupSize": null
+  },
+  {
+    "id": "E00320",
+    "kind": "method",
+    "name": "HttpClient.constructRequest",
+    "file": "src/source/client/http.js",
+    "line": 52,
+    "rawGroupSize": 1
+  },
+  {
+    "id": "E00321",
+    "kind": "method",
+    "name": "HttpClient.request",
+    "file": "src/source/client/http.js",
+    "line": 90,
+    "rawGroupSize": 5
+  },
+  {
+    "id": "E00322",
+    "kind": "class",
+    "name": "XHRResponse",
+    "file": "src/source/client/xhr.js",
+    "line": 4,
+    "hasName": true,
+    "rawGroupSize": 2
+  },
+  {
+    "id": "E00323",
+    "kind": "constructor",
+    "name": "XHRResponse.constructor",
+    "file": "src/source/client/xhr.js",
+    "line": 10,
+    "rawGroupSize": null
+  },
+  {
+    "id": "E00324",
+    "kind": "method",
+    "name": "XHRResponse.get:status",
+    "file": "src/source/client/xhr.js",
+    "line": 16,
+    "rawGroupSize": 7
+  },
+  {
+    "id": "E00325",
+    "kind": "method",
+    "name": "XHRResponse.getHeader",
+    "file": "src/source/client/xhr.js",
+    "line": 24,
+    "rawGroupSize": 6
+  },
+  {
+    "id": "E00326",
+    "kind": "method",
+    "name": "XHRResponse.getData",
+    "file": "src/source/client/xhr.js",
+    "line": 28,
+    "rawGroupSize": 8
+  },
+  {
+    "id": "E00327",
+    "kind": "class",
+    "name": "XHRClient",
+    "file": "src/source/client/xhr.js",
+    "line": 33,
+    "hasName": true,
+    "rawGroupSize": 2
+  },
+  {
+    "id": "E00328",
+    "kind": "method",
+    "name": "XHRClient.constructRequest",
+    "file": "src/source/client/xhr.js",
+    "line": 39,
+    "rawGroupSize": 1
+  },
+  {
+    "id": "E00329",
+    "kind": "method",
+    "name": "XHRClient.request",
+    "file": "src/source/client/xhr.js",
+    "line": 66,
+    "rawGroupSize": 5
+  }
+]

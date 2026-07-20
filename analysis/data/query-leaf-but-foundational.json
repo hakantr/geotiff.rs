@@ -1,0 +1,202 @@
+[
+  {
+    "id": "E00189",
+    "kind": "class",
+    "name": "BaseDecoder",
+    "file": "src/compression/basedecoder.js",
+    "line": 13,
+    "dependent_count": 9
+  },
+  {
+    "id": "E00250",
+    "kind": "class",
+    "name": "BaseSource",
+    "file": "src/source/basesource.js",
+    "line": 9,
+    "dependent_count": 9
+  },
+  {
+    "id": "E00013",
+    "kind": "method",
+    "name": "DataSlice.readUint32",
+    "file": "src/dataslice.js",
+    "line": 84,
+    "dependent_count": 5
+  },
+  {
+    "id": "E00103",
+    "kind": "function",
+    "name": "resolveTag",
+    "file": "src/globals.js",
+    "line": 288,
+    "dependent_count": 5
+  },
+  {
+    "id": "E00297",
+    "kind": "class",
+    "name": "BaseResponse",
+    "file": "src/source/client/base.js",
+    "line": 1,
+    "dependent_count": 4
+  },
+  {
+    "id": "E00002",
+    "kind": "constructor",
+    "name": "DataSlice.constructor",
+    "file": "src/dataslice.js",
+    "line": 8,
+    "dependent_count": 4
+  },
+  {
+    "id": "E00285",
+    "kind": "constructor",
+    "name": "RemoteSource.constructor",
+    "file": "src/source/remote.js",
+    "line": 28,
+    "dependent_count": 4
+  },
+  {
+    "id": "E00154",
+    "kind": "function",
+    "name": "copyNewSize",
+    "file": "src/resample.js",
+    "line": 11,
+    "dependent_count": 4
+  },
+  {
+    "id": "E00202",
+    "kind": "function",
+    "name": "decodeScan>readBit",
+    "file": "src/compression/jpeg.js",
+    "line": 163,
+    "dependent_count": 4
+  },
+  {
+    "id": "E00101",
+    "kind": "function",
+    "name": "getFieldTypeSize",
+    "file": "src/globals.js",
+    "line": 56,
+    "dependent_count": 4
+  },
+  {
+    "id": "E00299",
+    "kind": "method",
+    "name": "BaseResponse.get:status",
+    "file": "src/source/client/base.js",
+    "line": 13,
+    "dependent_count": 3
+  },
+  {
+    "id": "E00011",
+    "kind": "method",
+    "name": "DataSlice.readUint16",
+    "file": "src/dataslice.js",
+    "line": 64,
+    "dependent_count": 3
+  },
+  {
+    "id": "E00063",
+    "kind": "function",
+    "name": "arrayForType",
+    "file": "src/geotiffimage.js",
+    "line": 38,
+    "dependent_count": 3
+  },
+  {
+    "id": "E00105",
+    "kind": "function",
+    "name": "getArrayForSamples",
+    "file": "src/imagefiledirectory.js",
+    "line": 18,
+    "dependent_count": 3
+  },
+  {
+    "id": "E00282",
+    "kind": "function",
+    "name": "parseContentRange",
+    "file": "src/source/httputils.js",
+    "line": 59,
+    "dependent_count": 3
+  },
+  {
+    "id": "E00174",
+    "kind": "function",
+    "name": "times",
+    "file": "src/utils.ts",
+    "line": 65,
+    "dependent_count": 3
+  },
+  {
+    "id": "E00182",
+    "kind": "class",
+    "name": "AbortError",
+    "file": "src/utils.ts",
+    "line": 159,
+    "dependent_count": 2
+  },
+  {
+    "id": "E00303",
+    "kind": "constructor",
+    "name": "BaseClient.constructor",
+    "file": "src/source/client/base.js",
+    "line": 36,
+    "dependent_count": 2
+  },
+  {
+    "id": "E00304",
+    "kind": "method",
+    "name": "BaseClient.request",
+    "file": "src/source/client/base.js",
+    "line": 45,
+    "dependent_count": 2
+  },
+  {
+    "id": "E00190",
+    "kind": "constructor",
+    "name": "BaseDecoder.constructor",
+    "file": "src/compression/basedecoder.js",
+    "line": 17,
+    "dependent_count": 2
+  },
+  {
+    "id": "E00301",
+    "kind": "method",
+    "name": "BaseResponse.getData",
+    "file": "src/source/client/base.js",
+    "line": 29,
+    "dependent_count": 2
+  },
+  {
+    "id": "E00300",
+    "kind": "method",
+    "name": "BaseResponse.getHeader",
+    "file": "src/source/client/base.js",
+    "line": 22,
+    "dependent_count": 2
+  },
+  {
+    "id": "E00252",
+    "kind": "method",
+    "name": "BaseSource.fetchSlice",
+    "file": "src/source/basesource.js",
+    "line": 26,
+    "dependent_count": 2
+  },
+  {
+    "id": "E00255",
+    "kind": "class",
+    "name": "Block",
+    "file": "src/source/blockedsource.js",
+    "line": 5,
+    "dependent_count": 2
+  },
+  {
+    "id": "E00001",
+    "kind": "class",
+    "name": "DataSlice",
+    "file": "src/dataslice.js",
+    "line": 1,
+    "dependent_count": 2
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "totalRawReferenceEntries": 984,
+  "totalDefinitionEntries": 299,
+  "attributedToOtherElement": 264,
+  "excludedOutsideCatalog": 3,
+  "unresolvedFallback": 0,
+  "orphanNoCaller": 160,
+  "selfReferenceDiscarded": 4,
+  "constructorRedirects": 37,
+  "superConstructorEdges": 4,
+  "finalEdgeCount": 421
+}

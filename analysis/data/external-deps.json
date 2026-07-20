@@ -1,0 +1,198 @@
+{
+  "rows": [
+    {
+      "package": "@petamoriken/float16",
+      "classification": "matched",
+      "runtimeFiles": [
+        "src/dataview64.js",
+        "src/geotiffimage.js"
+      ],
+      "runtimeBindings": [
+        "getFloat16"
+      ],
+      "typeOnlyFiles": [],
+      "kinds": [
+        "import"
+      ],
+      "inManifestDependencies": true,
+      "inManifestPeerDependencies": false,
+      "inManifestDevDependencies": false
+    },
+    {
+      "package": "fs",
+      "classification": "node builtin (not an npm package)",
+      "runtimeFiles": [
+        "src/source/file.js"
+      ],
+      "runtimeBindings": [
+        "default as fs"
+      ],
+      "typeOnlyFiles": [],
+      "kinds": [
+        "import"
+      ],
+      "inManifestDependencies": false,
+      "inManifestPeerDependencies": false,
+      "inManifestDevDependencies": false
+    },
+    {
+      "package": "http",
+      "classification": "node builtin (not an npm package)",
+      "runtimeFiles": [
+        "src/source/client/http.js"
+      ],
+      "runtimeBindings": [
+        "default as http"
+      ],
+      "typeOnlyFiles": [],
+      "kinds": [
+        "import"
+      ],
+      "inManifestDependencies": false,
+      "inManifestPeerDependencies": false,
+      "inManifestDevDependencies": false
+    },
+    {
+      "package": "https",
+      "classification": "node builtin (not an npm package)",
+      "runtimeFiles": [
+        "src/source/client/http.js"
+      ],
+      "runtimeBindings": [
+        "default as https"
+      ],
+      "typeOnlyFiles": [],
+      "kinds": [
+        "import"
+      ],
+      "inManifestDependencies": false,
+      "inManifestPeerDependencies": false,
+      "inManifestDevDependencies": false
+    },
+    {
+      "package": "lerc",
+      "classification": "matched",
+      "runtimeFiles": [
+        "src/compression/lerc.js"
+      ],
+      "runtimeBindings": [
+        "default as Lerc"
+      ],
+      "typeOnlyFiles": [],
+      "kinds": [
+        "import"
+      ],
+      "inManifestDependencies": true,
+      "inManifestPeerDependencies": false,
+      "inManifestDevDependencies": false
+    },
+    {
+      "package": "pako",
+      "classification": "matched",
+      "runtimeFiles": [
+        "src/compression/deflate.js",
+        "src/compression/lerc.js"
+      ],
+      "runtimeBindings": [
+        "inflate"
+      ],
+      "typeOnlyFiles": [],
+      "kinds": [
+        "import"
+      ],
+      "inManifestDependencies": true,
+      "inManifestPeerDependencies": false,
+      "inManifestDevDependencies": false
+    },
+    {
+      "package": "quick-lru",
+      "classification": "matched",
+      "runtimeFiles": [
+        "src/source/blockedsource.js"
+      ],
+      "runtimeBindings": [
+        "default as QuickLRU"
+      ],
+      "typeOnlyFiles": [],
+      "kinds": [
+        "import"
+      ],
+      "inManifestDependencies": true,
+      "inManifestPeerDependencies": false,
+      "inManifestDevDependencies": false
+    },
+    {
+      "package": "url",
+      "classification": "node builtin (not an npm package)",
+      "runtimeFiles": [
+        "src/source/client/http.js"
+      ],
+      "runtimeBindings": [
+        "default as urlMod"
+      ],
+      "typeOnlyFiles": [],
+      "kinds": [
+        "import"
+      ],
+      "inManifestDependencies": false,
+      "inManifestPeerDependencies": false,
+      "inManifestDevDependencies": false
+    },
+    {
+      "package": "web-worker",
+      "classification": "matched",
+      "runtimeFiles": [
+        "src/worker/create.js"
+      ],
+      "runtimeBindings": [
+        "default as Worker"
+      ],
+      "typeOnlyFiles": [],
+      "kinds": [
+        "import"
+      ],
+      "inManifestDependencies": true,
+      "inManifestPeerDependencies": false,
+      "inManifestDevDependencies": false
+    },
+    {
+      "package": "xml-utils",
+      "classification": "matched",
+      "runtimeFiles": [
+        "src/geotiffimage.js"
+      ],
+      "runtimeBindings": [
+        "default as findTagsByName",
+        "default as getAttribute"
+      ],
+      "typeOnlyFiles": [],
+      "kinds": [
+        "import"
+      ],
+      "inManifestDependencies": true,
+      "inManifestPeerDependencies": false,
+      "inManifestDevDependencies": false
+    },
+    {
+      "package": "zstddec",
+      "classification": "matched",
+      "runtimeFiles": [
+        "src/compression/lerc.js",
+        "src/compression/zstd.js"
+      ],
+      "runtimeBindings": [
+        "ZSTDDecoder"
+      ],
+      "typeOnlyFiles": [],
+      "kinds": [
+        "import"
+      ],
+      "inManifestDependencies": true,
+      "inManifestPeerDependencies": false,
+      "inManifestDevDependencies": false
+    }
+  ],
+  "deadDeps": [
+    "parse-headers"
+  ]
+}

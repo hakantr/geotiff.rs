@@ -1,0 +1,202 @@
+[
+  {
+    "id": "E00115",
+    "kind": "method",
+    "name": "ImageFileDirectory.getValue",
+    "file": "src/imagefiledirectory.js",
+    "line": 314,
+    "dependent_count": 19
+  },
+  {
+    "id": "E00189",
+    "kind": "class",
+    "name": "BaseDecoder",
+    "file": "src/compression/basedecoder.js",
+    "line": 13,
+    "dependent_count": 9
+  },
+  {
+    "id": "E00250",
+    "kind": "class",
+    "name": "BaseSource",
+    "file": "src/source/basesource.js",
+    "line": 9,
+    "dependent_count": 9
+  },
+  {
+    "id": "E00071",
+    "kind": "method",
+    "name": "GeoTIFFImage.getHeight",
+    "file": "src/geotiffimage.js",
+    "line": 247,
+    "dependent_count": 9
+  },
+  {
+    "id": "E00070",
+    "kind": "method",
+    "name": "GeoTIFFImage.getWidth",
+    "file": "src/geotiffimage.js",
+    "line": 239,
+    "dependent_count": 8
+  },
+  {
+    "id": "E00041",
+    "kind": "class",
+    "name": "GeoTIFF",
+    "file": "src/geotiff.js",
+    "line": 397,
+    "dependent_count": 7
+  },
+  {
+    "id": "E00114",
+    "kind": "method",
+    "name": "ImageFileDirectory.hasTag",
+    "file": "src/imagefiledirectory.js",
+    "line": 300,
+    "dependent_count": 7
+  },
+  {
+    "id": "E00251",
+    "kind": "method",
+    "name": "BaseSource.fetch",
+    "file": "src/source/basesource.js",
+    "line": 15,
+    "dependent_count": 6
+  },
+  {
+    "id": "E00048",
+    "kind": "method",
+    "name": "GeoTIFF.fromSource",
+    "file": "src/geotiff.js",
+    "line": 563,
+    "dependent_count": 6
+  },
+  {
+    "id": "E00116",
+    "kind": "method",
+    "name": "ImageFileDirectory.loadValue",
+    "file": "src/imagefiledirectory.js",
+    "line": 339,
+    "dependent_count": 6
+  },
+  {
+    "id": "E00013",
+    "kind": "method",
+    "name": "DataSlice.readUint32",
+    "file": "src/dataslice.js",
+    "line": 84,
+    "dependent_count": 5
+  },
+  {
+    "id": "E00103",
+    "kind": "function",
+    "name": "resolveTag",
+    "file": "src/globals.js",
+    "line": 288,
+    "dependent_count": 5
+  },
+  {
+    "id": "E00183",
+    "kind": "constructor",
+    "name": "AbortError.constructor",
+    "file": "src/utils.ts",
+    "line": 161,
+    "dependent_count": 4
+  },
+  {
+    "id": "E00302",
+    "kind": "class",
+    "name": "BaseClient",
+    "file": "src/source/client/base.js",
+    "line": 34,
+    "dependent_count": 4
+  },
+  {
+    "id": "E00297",
+    "kind": "class",
+    "name": "BaseResponse",
+    "file": "src/source/client/base.js",
+    "line": 1,
+    "dependent_count": 4
+  },
+  {
+    "id": "E00002",
+    "kind": "constructor",
+    "name": "DataSlice.constructor",
+    "file": "src/dataslice.js",
+    "line": 8,
+    "dependent_count": 4
+  },
+  {
+    "id": "E00017",
+    "kind": "method",
+    "name": "DataSlice.readUint64",
+    "file": "src/dataslice.js",
+    "line": 124,
+    "dependent_count": 4
+  },
+  {
+    "id": "E00112",
+    "kind": "class",
+    "name": "ImageFileDirectory",
+    "file": "src/imagefiledirectory.js",
+    "line": 278,
+    "dependent_count": 4
+  },
+  {
+    "id": "E00285",
+    "kind": "constructor",
+    "name": "RemoteSource.constructor",
+    "file": "src/source/remote.js",
+    "line": 28,
+    "dependent_count": 4
+  },
+  {
+    "id": "E00154",
+    "kind": "function",
+    "name": "copyNewSize",
+    "file": "src/resample.js",
+    "line": 11,
+    "dependent_count": 4
+  },
+  {
+    "id": "E00203",
+    "kind": "function",
+    "name": "decodeScan>decodeHuffman",
+    "file": "src/compression/jpeg.js",
+    "line": 180,
+    "dependent_count": 4
+  },
+  {
+    "id": "E00202",
+    "kind": "function",
+    "name": "decodeScan>readBit",
+    "file": "src/compression/jpeg.js",
+    "line": 163,
+    "dependent_count": 4
+  },
+  {
+    "id": "E00205",
+    "kind": "function",
+    "name": "decodeScan>receiveAndExtend",
+    "file": "src/compression/jpeg.js",
+    "line": 213,
+    "dependent_count": 4
+  },
+  {
+    "id": "E00101",
+    "kind": "function",
+    "name": "getFieldTypeSize",
+    "file": "src/globals.js",
+    "line": 56,
+    "dependent_count": 4
+  },
+  {
+    "id": "E00290",
+    "kind": "function",
+    "name": "maybeWrapInBlockedSource",
+    "file": "src/source/remote.js",
+    "line": 181,
+    "dependent_count": 4
+  }
+]

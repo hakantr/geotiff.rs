@@ -1,0 +1,3041 @@
+{
+  "totalElements": 329,
+  "totalEdges": 421,
+  "waveCount": 12,
+  "waves": [
+    {
+      "wave": 1,
+      "count": 154,
+      "elements": [
+        {
+          "id": "E00189",
+          "name": "BaseDecoder",
+          "kind": "class",
+          "file": "src/compression/basedecoder.js",
+          "line": 13,
+          "dependents": 9,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00250",
+          "name": "BaseSource",
+          "kind": "class",
+          "file": "src/source/basesource.js",
+          "line": 9,
+          "dependents": 9,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00013",
+          "name": "DataSlice.readUint32",
+          "kind": "method",
+          "file": "src/dataslice.js",
+          "line": 84,
+          "dependents": 5,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00103",
+          "name": "resolveTag",
+          "kind": "function",
+          "file": "src/globals.js",
+          "line": 288,
+          "dependents": 5,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00002",
+          "name": "DataSlice.constructor",
+          "kind": "constructor",
+          "file": "src/dataslice.js",
+          "line": 8,
+          "dependents": 4,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00101",
+          "name": "getFieldTypeSize",
+          "kind": "function",
+          "file": "src/globals.js",
+          "line": 56,
+          "dependents": 4,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00154",
+          "name": "copyNewSize",
+          "kind": "function",
+          "file": "src/resample.js",
+          "line": 11,
+          "dependents": 4,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00202",
+          "name": "decodeScan>readBit",
+          "kind": "function",
+          "file": "src/compression/jpeg.js",
+          "line": 163,
+          "dependents": 4,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00285",
+          "name": "RemoteSource.constructor",
+          "kind": "constructor",
+          "file": "src/source/remote.js",
+          "line": 28,
+          "dependents": 4,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00297",
+          "name": "BaseResponse",
+          "kind": "class",
+          "file": "src/source/client/base.js",
+          "line": 1,
+          "dependents": 4,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00011",
+          "name": "DataSlice.readUint16",
+          "kind": "method",
+          "file": "src/dataslice.js",
+          "line": 64,
+          "dependents": 3,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00063",
+          "name": "arrayForType",
+          "kind": "function",
+          "file": "src/geotiffimage.js",
+          "line": 38,
+          "dependents": 3,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00105",
+          "name": "getArrayForSamples",
+          "kind": "function",
+          "file": "src/imagefiledirectory.js",
+          "line": 18,
+          "dependents": 3,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00174",
+          "name": "times",
+          "kind": "function",
+          "file": "src/utils.ts",
+          "line": 65,
+          "dependents": 3,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00282",
+          "name": "parseContentRange",
+          "kind": "function",
+          "file": "src/source/httputils.js",
+          "line": 59,
+          "dependents": 3,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00299",
+          "name": "BaseResponse.get:status",
+          "kind": "method",
+          "file": "src/source/client/base.js",
+          "line": 13,
+          "dependents": 3,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00001",
+          "name": "DataSlice",
+          "kind": "class",
+          "file": "src/dataslice.js",
+          "line": 1,
+          "dependents": 2,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00009",
+          "name": "DataSlice.readUint8",
+          "kind": "method",
+          "file": "src/dataslice.js",
+          "line": 48,
+          "dependents": 2,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00010",
+          "name": "DataSlice.readInt8",
+          "kind": "method",
+          "file": "src/dataslice.js",
+          "line": 56,
+          "dependents": 2,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00012",
+          "name": "DataSlice.readInt16",
+          "kind": "method",
+          "file": "src/dataslice.js",
+          "line": 74,
+          "dependents": 2,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00014",
+          "name": "DataSlice.readInt32",
+          "kind": "method",
+          "file": "src/dataslice.js",
+          "line": 94,
+          "dependents": 2,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00015",
+          "name": "DataSlice.readFloat32",
+          "kind": "method",
+          "file": "src/dataslice.js",
+          "line": 104,
+          "dependents": 2,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00016",
+          "name": "DataSlice.readFloat64",
+          "kind": "method",
+          "file": "src/dataslice.js",
+          "line": 114,
+          "dependents": 2,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00018",
+          "name": "DataSlice.readInt64",
+          "kind": "method",
+          "file": "src/dataslice.js",
+          "line": 154,
+          "dependents": 2,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00029",
+          "name": "DataView64.getUint32",
+          "kind": "method",
+          "file": "src/dataview64.js",
+          "line": 114,
+          "dependents": 2,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00035",
+          "name": "GeoTIFFImageIndexError",
+          "kind": "class",
+          "file": "src/geotiff.js",
+          "line": 248,
+          "dependents": 2,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00156",
+          "name": "lerp",
+          "kind": "function",
+          "file": "src/resample.js",
+          "line": 48,
+          "dependents": 2,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00170",
+          "name": "endsWith",
+          "kind": "function",
+          "file": "src/utils.ts",
+          "line": 26,
+          "dependents": 2,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00182",
+          "name": "AbortError",
+          "kind": "class",
+          "file": "src/utils.ts",
+          "line": 159,
+          "dependents": 2,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00190",
+          "name": "BaseDecoder.constructor",
+          "kind": "constructor",
+          "file": "src/compression/basedecoder.js",
+          "line": 17,
+          "dependents": 2,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00198",
+          "name": "getDecoder",
+          "kind": "function",
+          "file": "src/compression/index.js",
+          "line": 71,
+          "dependents": 2,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00219",
+          "name": "JpegStreamReader.parse>readUint16",
+          "kind": "function",
+          "file": "src/compression/jpeg.js",
+          "line": 785,
+          "dependents": 2,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00252",
+          "name": "BaseSource.fetchSlice",
+          "kind": "method",
+          "file": "src/source/basesource.js",
+          "line": 26,
+          "dependents": 2,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00255",
+          "name": "Block",
+          "kind": "class",
+          "file": "src/source/blockedsource.js",
+          "line": 5,
+          "dependents": 2,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00279",
+          "name": "itemsToObject",
+          "kind": "function",
+          "file": "src/source/httputils.js",
+          "line": 9,
+          "dependents": 2,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00300",
+          "name": "BaseResponse.getHeader",
+          "kind": "method",
+          "file": "src/source/client/base.js",
+          "line": 22,
+          "dependents": 2,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00301",
+          "name": "BaseResponse.getData",
+          "kind": "method",
+          "file": "src/source/client/base.js",
+          "line": 29,
+          "dependents": 2,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00303",
+          "name": "BaseClient.constructor",
+          "kind": "constructor",
+          "file": "src/source/client/base.js",
+          "line": 36,
+          "dependents": 2,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00304",
+          "name": "BaseClient.request",
+          "kind": "method",
+          "file": "src/source/client/base.js",
+          "line": 45,
+          "dependents": 2,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00003",
+          "name": "DataSlice.get:sliceOffset",
+          "kind": "method",
+          "file": "src/dataslice.js",
+          "line": 15,
+          "dependents": 1,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00007",
+          "name": "DataSlice.get:buffer",
+          "kind": "method",
+          "file": "src/dataslice.js",
+          "line": 31,
+          "dependents": 1,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00021",
+          "name": "DataView64.constructor",
+          "kind": "constructor",
+          "file": "src/dataview64.js",
+          "line": 7,
+          "dependents": 1,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00027",
+          "name": "DataView64.getUint16",
+          "kind": "method",
+          "file": "src/dataview64.js",
+          "line": 96,
+          "dependents": 1,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00036",
+          "name": "GeoTIFFImageIndexError.constructor",
+          "kind": "constructor",
+          "file": "src/geotiff.js",
+          "line": 252,
+          "dependents": 1,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00038",
+          "name": "GeoTIFFBase.getImage",
+          "kind": "method",
+          "file": "src/geotiff.js",
+          "line": 263,
+          "dependents": 1,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00039",
+          "name": "GeoTIFFBase.getImageCount",
+          "kind": "method",
+          "file": "src/geotiff.js",
+          "line": 270,
+          "dependents": 1,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00051",
+          "name": "MultiGeoTIFF.constructor",
+          "kind": "constructor",
+          "file": "src/geotiff.js",
+          "line": 623,
+          "dependents": 1,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00062",
+          "name": "sum",
+          "kind": "function",
+          "file": "src/geotiffimage.js",
+          "line": 24,
+          "dependents": 1,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00064",
+          "name": "needsNormalization",
+          "kind": "function",
+          "file": "src/geotiffimage.js",
+          "line": 91,
+          "dependents": 1,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00097",
+          "name": "encodeImage>countsToOffsets",
+          "kind": "function",
+          "file": "src/geotiffwriter.js",
+          "line": 328,
+          "dependents": 1,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00098",
+          "name": "convertToTids",
+          "kind": "function-var",
+          "file": "src/geotiffwriter.js",
+          "line": 408,
+          "dependents": 1,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00099",
+          "name": "toArray",
+          "kind": "function-var",
+          "file": "src/geotiffwriter.js",
+          "line": 427,
+          "dependents": 1,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00113",
+          "name": "ImageFileDirectory.constructor",
+          "kind": "constructor",
+          "file": "src/imagefiledirectory.js",
+          "line": 288,
+          "dependents": 1,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00121",
+          "name": "ImageFileDirectoryParser.constructor",
+          "kind": "constructor",
+          "file": "src/imagefiledirectory.js",
+          "line": 464,
+          "dependents": 1,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00124",
+          "name": "DummyLogger",
+          "kind": "class",
+          "file": "src/logging.js",
+          "line": 4,
+          "dependents": 1,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00125",
+          "name": "DummyLogger.log",
+          "kind": "method",
+          "file": "src/logging.js",
+          "line": 6,
+          "dependents": 1,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00126",
+          "name": "DummyLogger.debug",
+          "kind": "method",
+          "file": "src/logging.js",
+          "line": 9,
+          "dependents": 1,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00127",
+          "name": "DummyLogger.info",
+          "kind": "method",
+          "file": "src/logging.js",
+          "line": 12,
+          "dependents": 1,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00128",
+          "name": "DummyLogger.warn",
+          "kind": "method",
+          "file": "src/logging.js",
+          "line": 15,
+          "dependents": 1,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00129",
+          "name": "DummyLogger.error",
+          "kind": "method",
+          "file": "src/logging.js",
+          "line": 18,
+          "dependents": 1,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00130",
+          "name": "DummyLogger.time",
+          "kind": "method",
+          "file": "src/logging.js",
+          "line": 21,
+          "dependents": 1,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00131",
+          "name": "DummyLogger.timeEnd",
+          "kind": "method",
+          "file": "src/logging.js",
+          "line": 24,
+          "dependents": 1,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00142",
+          "name": "WorkerWrapper.newJobId",
+          "kind": "method",
+          "file": "src/pool.js",
+          "line": 29,
+          "dependents": 1,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00143",
+          "name": "WorkerWrapper.getJobCount",
+          "kind": "method",
+          "file": "src/pool.js",
+          "line": 37,
+          "dependents": 1,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00144",
+          "name": "WorkerWrapper._onWorkerMessage",
+          "kind": "method",
+          "file": "src/pool.js",
+          "line": 42,
+          "dependents": 1,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00146",
+          "name": "WorkerWrapper.terminate",
+          "kind": "method",
+          "file": "src/pool.js",
+          "line": 80,
+          "dependents": 1,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00151",
+          "name": "decodeRowAcc",
+          "kind": "function",
+          "file": "src/predictor.js",
+          "line": 5,
+          "dependents": 1,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00152",
+          "name": "decodeRowFloatingPoint",
+          "kind": "function",
+          "file": "src/predictor.js",
+          "line": 23,
+          "dependents": 1,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00162",
+          "name": "fromWhiteIsZero",
+          "kind": "function",
+          "file": "src/rgb.ts",
+          "line": 3,
+          "dependents": 1,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00163",
+          "name": "fromBlackIsZero",
+          "kind": "function",
+          "file": "src/rgb.ts",
+          "line": 19,
+          "dependents": 1,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00164",
+          "name": "fromPalette",
+          "kind": "function",
+          "file": "src/rgb.ts",
+          "line": 35,
+          "dependents": 1,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00165",
+          "name": "fromCMYK",
+          "kind": "function",
+          "file": "src/rgb.ts",
+          "line": 52,
+          "dependents": 1,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00166",
+          "name": "fromYCbCr",
+          "kind": "function",
+          "file": "src/rgb.ts",
+          "line": 68,
+          "dependents": 1,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00167",
+          "name": "fromCIELab",
+          "kind": "function",
+          "file": "src/rgb.ts",
+          "line": 91,
+          "dependents": 1,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00171",
+          "name": "forEach",
+          "kind": "function",
+          "file": "src/utils.ts",
+          "line": 34,
+          "dependents": 1,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00175",
+          "name": "toArray",
+          "kind": "function",
+          "file": "src/utils.ts",
+          "line": 73,
+          "dependents": 1,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00177",
+          "name": "isArrayLike",
+          "kind": "function",
+          "file": "src/utils.ts",
+          "line": 89,
+          "dependents": 1,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00179",
+          "name": "parseContentRange>parseInt",
+          "kind": "function-var",
+          "file": "src/utils.ts",
+          "line": 111,
+          "dependents": 1,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00180",
+          "name": "wait",
+          "kind": "function",
+          "file": "src/utils.ts",
+          "line": 148,
+          "dependents": 1,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00181",
+          "name": "zip",
+          "kind": "function",
+          "file": "src/utils.ts",
+          "line": 152,
+          "dependents": 1,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00186",
+          "name": "isTypedFloatArray",
+          "kind": "function",
+          "file": "src/utils.ts",
+          "line": 188,
+          "dependents": 1,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00187",
+          "name": "isTypedIntArray",
+          "kind": "function",
+          "file": "src/utils.ts",
+          "line": 200,
+          "dependents": 1,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00188",
+          "name": "isTypedUintArray",
+          "kind": "function",
+          "file": "src/utils.ts",
+          "line": 212,
+          "dependents": 1,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00191",
+          "name": "BaseDecoder.decodeBlock",
+          "kind": "method",
+          "file": "src/compression/basedecoder.js",
+          "line": 26,
+          "dependents": 1,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00197",
+          "name": "getDecoderParameters",
+          "kind": "function",
+          "file": "src/compression/index.js",
+          "line": 57,
+          "dependents": 1,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00199",
+          "name": "preferWorker",
+          "kind": "function",
+          "file": "src/compression/index.js",
+          "line": 85,
+          "dependents": 1,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00200",
+          "name": "buildHuffmanTable",
+          "kind": "function",
+          "file": "src/compression/jpeg.js",
+          "line": 90,
+          "dependents": 1,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00211",
+          "name": "decodeScan>decodeMcu",
+          "kind": "function",
+          "file": "src/compression/jpeg.js",
+          "line": 440,
+          "dependents": 1,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00212",
+          "name": "decodeScan>decodeBlock",
+          "kind": "function",
+          "file": "src/compression/jpeg.js",
+          "line": 455,
+          "dependents": 1,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00214",
+          "name": "buildComponentData>quantizeAndInverse",
+          "kind": "function",
+          "file": "src/compression/jpeg.js",
+          "line": 565,
+          "dependents": 1,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00216",
+          "name": "JpegStreamReader.constructor",
+          "kind": "constructor",
+          "file": "src/compression/jpeg.js",
+          "line": 760,
+          "dependents": 1,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00217",
+          "name": "JpegStreamReader.resetFrames",
+          "kind": "method",
+          "file": "src/compression/jpeg.js",
+          "line": 777,
+          "dependents": 1,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00221",
+          "name": "JpegStreamReader.parse>prepareComponents",
+          "kind": "function",
+          "file": "src/compression/jpeg.js",
+          "line": 797,
+          "dependents": 1,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00228",
+          "name": "getByte",
+          "kind": "function",
+          "file": "src/compression/lzw.js",
+          "line": 14,
+          "dependents": 1,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00229",
+          "name": "appendReversed",
+          "kind": "function",
+          "file": "src/compression/lzw.js",
+          "line": 48,
+          "dependents": 1,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00231",
+          "name": "decompress>initDictionary",
+          "kind": "function",
+          "file": "src/compression/lzw.js",
+          "line": 69,
+          "dependents": 1,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00233",
+          "name": "decompress>addToDictionary",
+          "kind": "function",
+          "file": "src/compression/lzw.js",
+          "line": 83,
+          "dependents": 1,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00234",
+          "name": "decompress>getDictionaryReversed",
+          "kind": "function",
+          "file": "src/compression/lzw.js",
+          "line": 90,
+          "dependents": 1,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00247",
+          "name": "ArrayBufferSource.constructor",
+          "kind": "constructor",
+          "file": "src/source/arraybuffer.js",
+          "line": 8,
+          "dependents": 1,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00253",
+          "name": "BaseSource.get:fileSize",
+          "kind": "method",
+          "file": "src/source/basesource.js",
+          "line": 34,
+          "dependents": 1,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00254",
+          "name": "BaseSource.close",
+          "kind": "method",
+          "file": "src/source/basesource.js",
+          "line": 38,
+          "dependents": 1,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00256",
+          "name": "Block.constructor",
+          "kind": "constructor",
+          "file": "src/source/blockedsource.js",
+          "line": 12,
+          "dependents": 1,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00257",
+          "name": "Block.get:top",
+          "kind": "method",
+          "file": "src/source/blockedsource.js",
+          "line": 21,
+          "dependents": 1,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00258",
+          "name": "BlockGroup",
+          "kind": "class",
+          "file": "src/source/blockedsource.js",
+          "line": 26,
+          "dependents": 1,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00259",
+          "name": "BlockGroup.constructor",
+          "kind": "constructor",
+          "file": "src/source/blockedsource.js",
+          "line": 33,
+          "dependents": 1,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00267",
+          "name": "closeAsync",
+          "kind": "function",
+          "file": "src/source/file.js",
+          "line": 8,
+          "dependents": 1,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00268",
+          "name": "openAsync",
+          "kind": "function",
+          "file": "src/source/file.js",
+          "line": 26,
+          "dependents": 1,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00269",
+          "name": "readAsync",
+          "kind": "function",
+          "file": "src/source/file.js",
+          "line": 46,
+          "dependents": 1,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00276",
+          "name": "FileReaderSource.constructor",
+          "kind": "constructor",
+          "file": "src/source/filereader.js",
+          "line": 7,
+          "dependents": 1,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00296",
+          "name": "create",
+          "kind": "function",
+          "file": "src/worker/create.js",
+          "line": 4,
+          "dependents": 1,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00306",
+          "name": "FetchResponse.constructor",
+          "kind": "constructor",
+          "file": "src/source/client/fetch.js",
+          "line": 8,
+          "dependents": 1,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00314",
+          "name": "HttpResponse.constructor",
+          "kind": "constructor",
+          "file": "src/source/client/http.js",
+          "line": 14,
+          "dependents": 1,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00323",
+          "name": "XHRResponse.constructor",
+          "kind": "constructor",
+          "file": "src/source/client/xhr.js",
+          "line": 10,
+          "dependents": 1,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00005",
+          "name": "DataSlice.get:littleEndian",
+          "kind": "method",
+          "file": "src/dataslice.js",
+          "line": 23,
+          "dependents": 0,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00006",
+          "name": "DataSlice.get:bigTiff",
+          "kind": "method",
+          "file": "src/dataslice.js",
+          "line": 27,
+          "dependents": 0,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00020",
+          "name": "DataView64",
+          "kind": "class",
+          "file": "src/dataview64.js",
+          "line": 3,
+          "dependents": 0,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00022",
+          "name": "DataView64.get:buffer",
+          "kind": "method",
+          "file": "src/dataview64.js",
+          "line": 11,
+          "dependents": 0,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00024",
+          "name": "DataView64.getInt64",
+          "kind": "method",
+          "file": "src/dataview64.js",
+          "line": 51,
+          "dependents": 0,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00025",
+          "name": "DataView64.getUint8",
+          "kind": "method",
+          "file": "src/dataview64.js",
+          "line": 79,
+          "dependents": 0,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00026",
+          "name": "DataView64.getInt8",
+          "kind": "method",
+          "file": "src/dataview64.js",
+          "line": 87,
+          "dependents": 0,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00028",
+          "name": "DataView64.getInt16",
+          "kind": "method",
+          "file": "src/dataview64.js",
+          "line": 105,
+          "dependents": 0,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00030",
+          "name": "DataView64.getInt32",
+          "kind": "method",
+          "file": "src/dataview64.js",
+          "line": 123,
+          "dependents": 0,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00031",
+          "name": "DataView64.getFloat16",
+          "kind": "method",
+          "file": "src/dataview64.js",
+          "line": 132,
+          "dependents": 0,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00032",
+          "name": "DataView64.getFloat32",
+          "kind": "method",
+          "file": "src/dataview64.js",
+          "line": 141,
+          "dependents": 0,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00033",
+          "name": "DataView64.getFloat64",
+          "kind": "method",
+          "file": "src/dataview64.js",
+          "line": 150,
+          "dependents": 0,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00068",
+          "name": "GeoTIFFImage.getFileDirectory",
+          "kind": "method",
+          "file": "src/geotiffimage.js",
+          "line": 223,
+          "dependents": 0,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00102",
+          "name": "registerTag",
+          "kind": "function",
+          "file": "src/globals.js",
+          "line": 268,
+          "dependents": 0,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00119",
+          "name": "ImageFileDirectory.toObject",
+          "kind": "method",
+          "file": "src/imagefiledirectory.js",
+          "line": 440,
+          "dependents": 0,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00140",
+          "name": "WorkerWrapper",
+          "kind": "class",
+          "file": "src/pool.js",
+          "line": 13,
+          "dependents": 0,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00147",
+          "name": "Pool",
+          "kind": "class",
+          "file": "src/pool.js",
+          "line": 92,
+          "dependents": 0,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00168",
+          "name": "assign",
+          "kind": "function",
+          "file": "src/utils.ts",
+          "line": 1,
+          "dependents": 0,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00169",
+          "name": "chunk",
+          "kind": "function",
+          "file": "src/utils.ts",
+          "line": 13,
+          "dependents": 0,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00172",
+          "name": "invert",
+          "kind": "function",
+          "file": "src/utils.ts",
+          "line": 44,
+          "dependents": 0,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00173",
+          "name": "range",
+          "kind": "function",
+          "file": "src/utils.ts",
+          "line": 57,
+          "dependents": 0,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00184",
+          "name": "CustomAggregateError",
+          "kind": "class",
+          "file": "src/utils.ts",
+          "line": 175,
+          "dependents": 0,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00185",
+          "name": "CustomAggregateError.constructor",
+          "kind": "constructor",
+          "file": "src/utils.ts",
+          "line": 178,
+          "dependents": 0,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00194",
+          "name": "DeflateDecoder.decodeBlock",
+          "kind": "method",
+          "file": "src/compression/deflate.js",
+          "line": 6,
+          "dependents": 0,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00215",
+          "name": "JpegStreamReader",
+          "kind": "class",
+          "file": "src/compression/jpeg.js",
+          "line": 759,
+          "dependents": 0,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00227",
+          "name": "LercDecoder.decodeBlock",
+          "kind": "method",
+          "file": "src/compression/lerc.js",
+          "line": 19,
+          "dependents": 0,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00238",
+          "name": "PackbitsDecoder.decodeBlock",
+          "kind": "method",
+          "file": "src/compression/packbits.js",
+          "line": 5,
+          "dependents": 0,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00240",
+          "name": "RawDecoder.decodeBlock",
+          "kind": "method",
+          "file": "src/compression/raw.js",
+          "line": 5,
+          "dependents": 0,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00243",
+          "name": "WebImageDecoder.decodeBlock",
+          "kind": "method",
+          "file": "src/compression/webimage.js",
+          "line": 23,
+          "dependents": 0,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00245",
+          "name": "ZstdDecoder.decodeBlock",
+          "kind": "method",
+          "file": "src/compression/zstd.js",
+          "line": 8,
+          "dependents": 0,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00277",
+          "name": "FileReaderSource.fetchSlice",
+          "kind": "method",
+          "file": "src/source/filereader.js",
+          "line": 17,
+          "dependents": 0,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00289",
+          "name": "RemoteSource.get:fileSize",
+          "kind": "method",
+          "file": "src/source/remote.js",
+          "line": 171,
+          "dependents": 0,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00307",
+          "name": "FetchResponse.get:status",
+          "kind": "method",
+          "file": "src/source/client/fetch.js",
+          "line": 13,
+          "dependents": 0,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00308",
+          "name": "FetchResponse.getHeader",
+          "kind": "method",
+          "file": "src/source/client/fetch.js",
+          "line": 21,
+          "dependents": 0,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00309",
+          "name": "FetchResponse.getData",
+          "kind": "method",
+          "file": "src/source/client/fetch.js",
+          "line": 25,
+          "dependents": 0,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00315",
+          "name": "HttpResponse.get:status",
+          "kind": "method",
+          "file": "src/source/client/http.js",
+          "line": 20,
+          "dependents": 0,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00316",
+          "name": "HttpResponse.getHeader",
+          "kind": "method",
+          "file": "src/source/client/http.js",
+          "line": 28,
+          "dependents": 0,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00317",
+          "name": "HttpResponse.getData",
+          "kind": "method",
+          "file": "src/source/client/http.js",
+          "line": 33,
+          "dependents": 0,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00324",
+          "name": "XHRResponse.get:status",
+          "kind": "method",
+          "file": "src/source/client/xhr.js",
+          "line": 16,
+          "dependents": 0,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00325",
+          "name": "XHRResponse.getHeader",
+          "kind": "method",
+          "file": "src/source/client/xhr.js",
+          "line": 24,
+          "dependents": 0,
+          "dependsOn": 0
+        },
+        {
+          "id": "E00326",
+          "name": "XHRResponse.getData",
+          "kind": "method",
+          "file": "src/source/client/xhr.js",
+          "line": 28,
+          "dependents": 0,
+          "dependsOn": 0
+        }
+      ]
+    },
+    {
+      "wave": 2,
+      "count": 69,
+      "elements": [
+        {
+          "id": "E00115",
+          "name": "ImageFileDirectory.getValue",
+          "kind": "method",
+          "file": "src/imagefiledirectory.js",
+          "line": 314,
+          "dependents": 19,
+          "dependsOn": 1
+        },
+        {
+          "id": "E00114",
+          "name": "ImageFileDirectory.hasTag",
+          "kind": "method",
+          "file": "src/imagefiledirectory.js",
+          "line": 300,
+          "dependents": 7,
+          "dependsOn": 1
+        },
+        {
+          "id": "E00251",
+          "name": "BaseSource.fetch",
+          "kind": "method",
+          "file": "src/source/basesource.js",
+          "line": 15,
+          "dependents": 6,
+          "dependsOn": 1
+        },
+        {
+          "id": "E00017",
+          "name": "DataSlice.readUint64",
+          "kind": "method",
+          "file": "src/dataslice.js",
+          "line": 124,
+          "dependents": 4,
+          "dependsOn": 1
+        },
+        {
+          "id": "E00183",
+          "name": "AbortError.constructor",
+          "kind": "constructor",
+          "file": "src/utils.ts",
+          "line": 161,
+          "dependents": 4,
+          "dependsOn": 1
+        },
+        {
+          "id": "E00203",
+          "name": "decodeScan>decodeHuffman",
+          "kind": "function",
+          "file": "src/compression/jpeg.js",
+          "line": 180,
+          "dependents": 4,
+          "dependsOn": 1
+        },
+        {
+          "id": "E00302",
+          "name": "BaseClient",
+          "kind": "class",
+          "file": "src/source/client/base.js",
+          "line": 34,
+          "dependents": 4,
+          "dependsOn": 1
+        },
+        {
+          "id": "E00204",
+          "name": "decodeScan>receive",
+          "kind": "function",
+          "file": "src/compression/jpeg.js",
+          "line": 199,
+          "dependents": 3,
+          "dependsOn": 1
+        },
+        {
+          "id": "E00107",
+          "name": "getValues",
+          "kind": "function",
+          "file": "src/imagefiledirectory.js",
+          "line": 130,
+          "dependents": 2,
+          "dependsOn": 2
+        },
+        {
+          "id": "E00108",
+          "name": "DeferredArray",
+          "kind": "class",
+          "file": "src/imagefiledirectory.js",
+          "line": 170,
+          "dependents": 2,
+          "dependsOn": 1
+        },
+        {
+          "id": "E00298",
+          "name": "BaseResponse.get:ok",
+          "kind": "method",
+          "file": "src/source/client/base.js",
+          "line": 5,
+          "dependents": 2,
+          "dependsOn": 1
+        },
+        {
+          "id": "E00004",
+          "name": "DataSlice.get:sliceTop",
+          "kind": "method",
+          "file": "src/dataslice.js",
+          "line": 19,
+          "dependents": 1,
+          "dependsOn": 1
+        },
+        {
+          "id": "E00023",
+          "name": "DataView64.getUint64",
+          "kind": "method",
+          "file": "src/dataview64.js",
+          "line": 20,
+          "dependents": 1,
+          "dependsOn": 1
+        },
+        {
+          "id": "E00065",
+          "name": "normalizeArray",
+          "kind": "function",
+          "file": "src/geotiffimage.js",
+          "line": 110,
+          "dependents": 1,
+          "dependsOn": 1
+        },
+        {
+          "id": "E00094",
+          "name": "_writeIFD",
+          "kind": "function-var",
+          "file": "src/geotiffwriter.js",
+          "line": 170,
+          "dependents": 1,
+          "dependsOn": 2
+        },
+        {
+          "id": "E00109",
+          "name": "DeferredArray.constructor",
+          "kind": "constructor",
+          "file": "src/imagefiledirectory.js",
+          "line": 179,
+          "dependents": 1,
+          "dependsOn": 2
+        },
+        {
+          "id": "E00141",
+          "name": "WorkerWrapper.constructor",
+          "kind": "constructor",
+          "file": "src/pool.js",
+          "line": 17,
+          "dependents": 1,
+          "dependsOn": 1
+        },
+        {
+          "id": "E00145",
+          "name": "WorkerWrapper.submitJob",
+          "kind": "method",
+          "file": "src/pool.js",
+          "line": 61,
+          "dependents": 1,
+          "dependsOn": 1
+        },
+        {
+          "id": "E00153",
+          "name": "applyPredictor",
+          "kind": "function",
+          "file": "src/predictor.js",
+          "line": 53,
+          "dependents": 1,
+          "dependsOn": 2
+        },
+        {
+          "id": "E00155",
+          "name": "resampleNearest",
+          "kind": "function",
+          "file": "src/resample.js",
+          "line": 24,
+          "dependents": 1,
+          "dependsOn": 1
+        },
+        {
+          "id": "E00157",
+          "name": "resampleBilinear",
+          "kind": "function",
+          "file": "src/resample.js",
+          "line": 61,
+          "dependents": 1,
+          "dependsOn": 2
+        },
+        {
+          "id": "E00159",
+          "name": "resampleNearestInterleaved",
+          "kind": "function",
+          "file": "src/resample.js",
+          "line": 130,
+          "dependents": 1,
+          "dependsOn": 1
+        },
+        {
+          "id": "E00160",
+          "name": "resampleBilinearInterleaved",
+          "kind": "function",
+          "file": "src/resample.js",
+          "line": 160,
+          "dependents": 1,
+          "dependsOn": 2
+        },
+        {
+          "id": "E00208",
+          "name": "decodeScan>decodeDCSuccessive",
+          "kind": "function",
+          "file": "src/compression/jpeg.js",
+          "line": 290,
+          "dependents": 1,
+          "dependsOn": 1
+        },
+        {
+          "id": "E00213",
+          "name": "buildComponentData",
+          "kind": "function",
+          "file": "src/compression/jpeg.js",
+          "line": 545,
+          "dependents": 1,
+          "dependsOn": 1
+        },
+        {
+          "id": "E00220",
+          "name": "JpegStreamReader.parse>readDataBlock",
+          "kind": "function",
+          "file": "src/compression/jpeg.js",
+          "line": 790,
+          "dependents": 1,
+          "dependsOn": 1
+        },
+        {
+          "id": "E00232",
+          "name": "decompress>getNext",
+          "kind": "function",
+          "file": "src/compression/lzw.js",
+          "line": 74,
+          "dependents": 1,
+          "dependsOn": 1
+        },
+        {
+          "id": "E00249",
+          "name": "makeBufferSource",
+          "kind": "function",
+          "file": "src/source/arraybuffer.js",
+          "line": 31,
+          "dependents": 1,
+          "dependsOn": 1
+        },
+        {
+          "id": "E00261",
+          "name": "BlockedSource.constructor",
+          "kind": "constructor",
+          "file": "src/source/blockedsource.js",
+          "line": 48,
+          "dependents": 1,
+          "dependsOn": 1
+        },
+        {
+          "id": "E00262",
+          "name": "BlockedSource.get:fileSize",
+          "kind": "method",
+          "file": "src/source/blockedsource.js",
+          "line": 72,
+          "dependents": 1,
+          "dependsOn": 1
+        },
+        {
+          "id": "E00265",
+          "name": "BlockedSource.groupBlocks",
+          "kind": "method",
+          "file": "src/source/blockedsource.js",
+          "line": 219,
+          "dependents": 1,
+          "dependsOn": 1
+        },
+        {
+          "id": "E00271",
+          "name": "FileSource.constructor",
+          "kind": "constructor",
+          "file": "src/source/file.js",
+          "line": 62,
+          "dependents": 1,
+          "dependsOn": 1
+        },
+        {
+          "id": "E00278",
+          "name": "makeFileReaderSource",
+          "kind": "function",
+          "file": "src/source/filereader.js",
+          "line": 42,
+          "dependents": 1,
+          "dependsOn": 1
+        },
+        {
+          "id": "E00280",
+          "name": "parseHeaders",
+          "kind": "function",
+          "file": "src/source/httputils.js",
+          "line": 26,
+          "dependents": 1,
+          "dependsOn": 1
+        },
+        {
+          "id": "E00281",
+          "name": "parseContentType",
+          "kind": "function",
+          "file": "src/source/httputils.js",
+          "line": 45,
+          "dependents": 1,
+          "dependsOn": 1
+        },
+        {
+          "id": "E00305",
+          "name": "FetchResponse",
+          "kind": "class",
+          "file": "src/source/client/fetch.js",
+          "line": 3,
+          "dependents": 1,
+          "dependsOn": 1
+        },
+        {
+          "id": "E00311",
+          "name": "FetchClient.constructor",
+          "kind": "constructor",
+          "file": "src/source/client/fetch.js",
+          "line": 39,
+          "dependents": 1,
+          "dependsOn": 1
+        },
+        {
+          "id": "E00313",
+          "name": "HttpResponse",
+          "kind": "class",
+          "file": "src/source/client/http.js",
+          "line": 8,
+          "dependents": 1,
+          "dependsOn": 1
+        },
+        {
+          "id": "E00319",
+          "name": "HttpClient.constructor",
+          "kind": "constructor",
+          "file": "src/source/client/http.js",
+          "line": 41,
+          "dependents": 1,
+          "dependsOn": 1
+        },
+        {
+          "id": "E00322",
+          "name": "XHRResponse",
+          "kind": "class",
+          "file": "src/source/client/xhr.js",
+          "line": 4,
+          "dependents": 1,
+          "dependsOn": 1
+        },
+        {
+          "id": "E00049",
+          "name": "GeoTIFF.close",
+          "kind": "method",
+          "file": "src/geotiff.js",
+          "line": 602,
+          "dependents": 0,
+          "dependsOn": 1
+        },
+        {
+          "id": "E00104",
+          "name": "getTag",
+          "kind": "function",
+          "file": "src/globals.js",
+          "line": 299,
+          "dependents": 0,
+          "dependsOn": 1
+        },
+        {
+          "id": "E00132",
+          "name": "setLogger",
+          "kind": "function",
+          "file": "src/logging.js",
+          "line": 32,
+          "dependents": 0,
+          "dependsOn": 1
+        },
+        {
+          "id": "E00133",
+          "name": "debug",
+          "kind": "function",
+          "file": "src/logging.js",
+          "line": 37,
+          "dependents": 0,
+          "dependsOn": 1
+        },
+        {
+          "id": "E00134",
+          "name": "log",
+          "kind": "function",
+          "file": "src/logging.js",
+          "line": 42,
+          "dependents": 0,
+          "dependsOn": 1
+        },
+        {
+          "id": "E00135",
+          "name": "info",
+          "kind": "function",
+          "file": "src/logging.js",
+          "line": 47,
+          "dependents": 0,
+          "dependsOn": 1
+        },
+        {
+          "id": "E00136",
+          "name": "warn",
+          "kind": "function",
+          "file": "src/logging.js",
+          "line": 52,
+          "dependents": 0,
+          "dependsOn": 1
+        },
+        {
+          "id": "E00137",
+          "name": "error",
+          "kind": "function",
+          "file": "src/logging.js",
+          "line": 57,
+          "dependents": 0,
+          "dependsOn": 1
+        },
+        {
+          "id": "E00138",
+          "name": "time",
+          "kind": "function",
+          "file": "src/logging.js",
+          "line": 62,
+          "dependents": 0,
+          "dependsOn": 1
+        },
+        {
+          "id": "E00139",
+          "name": "timeEnd",
+          "kind": "function",
+          "file": "src/logging.js",
+          "line": 67,
+          "dependents": 0,
+          "dependsOn": 1
+        },
+        {
+          "id": "E00150",
+          "name": "Pool.destroy",
+          "kind": "method",
+          "file": "src/pool.js",
+          "line": 161,
+          "dependents": 0,
+          "dependsOn": 1
+        },
+        {
+          "id": "E00176",
+          "name": "toArrayRecursively",
+          "kind": "function",
+          "file": "src/utils.ts",
+          "line": 82,
+          "dependents": 0,
+          "dependsOn": 2
+        },
+        {
+          "id": "E00178",
+          "name": "parseContentRange",
+          "kind": "function",
+          "file": "src/utils.ts",
+          "line": 97,
+          "dependents": 0,
+          "dependsOn": 1
+        },
+        {
+          "id": "E00193",
+          "name": "DeflateDecoder",
+          "kind": "class",
+          "file": "src/compression/deflate.js",
+          "line": 4,
+          "dependents": 0,
+          "dependsOn": 1
+        },
+        {
+          "id": "E00223",
+          "name": "JpegDecoder",
+          "kind": "class",
+          "file": "src/compression/jpeg.js",
+          "line": 1098,
+          "dependents": 0,
+          "dependsOn": 1
+        },
+        {
+          "id": "E00226",
+          "name": "LercDecoder",
+          "kind": "class",
+          "file": "src/compression/lerc.js",
+          "line": 14,
+          "dependents": 0,
+          "dependsOn": 1
+        },
+        {
+          "id": "E00235",
+          "name": "LZWDecoder",
+          "kind": "class",
+          "file": "src/compression/lzw.js",
+          "line": 153,
+          "dependents": 0,
+          "dependsOn": 1
+        },
+        {
+          "id": "E00237",
+          "name": "PackbitsDecoder",
+          "kind": "class",
+          "file": "src/compression/packbits.js",
+          "line": 3,
+          "dependents": 0,
+          "dependsOn": 1
+        },
+        {
+          "id": "E00239",
+          "name": "RawDecoder",
+          "kind": "class",
+          "file": "src/compression/raw.js",
+          "line": 3,
+          "dependents": 0,
+          "dependsOn": 1
+        },
+        {
+          "id": "E00241",
+          "name": "WebImageDecoder",
+          "kind": "class",
+          "file": "src/compression/webimage.js",
+          "line": 9,
+          "dependents": 0,
+          "dependsOn": 1
+        },
+        {
+          "id": "E00242",
+          "name": "WebImageDecoder.constructor",
+          "kind": "constructor",
+          "file": "src/compression/webimage.js",
+          "line": 13,
+          "dependents": 0,
+          "dependsOn": 1
+        },
+        {
+          "id": "E00244",
+          "name": "ZstdDecoder",
+          "kind": "class",
+          "file": "src/compression/zstd.js",
+          "line": 6,
+          "dependents": 0,
+          "dependsOn": 1
+        },
+        {
+          "id": "E00246",
+          "name": "ArrayBufferSource",
+          "kind": "class",
+          "file": "src/source/arraybuffer.js",
+          "line": 4,
+          "dependents": 0,
+          "dependsOn": 1
+        },
+        {
+          "id": "E00260",
+          "name": "BlockedSource",
+          "kind": "class",
+          "file": "src/source/blockedsource.js",
+          "line": 40,
+          "dependents": 0,
+          "dependsOn": 3
+        },
+        {
+          "id": "E00270",
+          "name": "FileSource",
+          "kind": "class",
+          "file": "src/source/file.js",
+          "line": 58,
+          "dependents": 0,
+          "dependsOn": 1
+        },
+        {
+          "id": "E00272",
+          "name": "FileSource.fetchSlice",
+          "kind": "method",
+          "file": "src/source/file.js",
+          "line": 73,
+          "dependents": 0,
+          "dependsOn": 1
+        },
+        {
+          "id": "E00273",
+          "name": "FileSource.close",
+          "kind": "method",
+          "file": "src/source/file.js",
+          "line": 90,
+          "dependents": 0,
+          "dependsOn": 1
+        },
+        {
+          "id": "E00275",
+          "name": "FileReaderSource",
+          "kind": "class",
+          "file": "src/source/filereader.js",
+          "line": 3,
+          "dependents": 0,
+          "dependsOn": 1
+        },
+        {
+          "id": "E00312",
+          "name": "FetchClient.request",
+          "kind": "method",
+          "file": "src/source/client/fetch.js",
+          "line": 48,
+          "dependents": 0,
+          "dependsOn": 1
+        }
+      ]
+    },
+    {
+      "wave": 3,
+      "count": 39,
+      "elements": [
+        {
+          "id": "E00071",
+          "name": "GeoTIFFImage.getHeight",
+          "kind": "method",
+          "file": "src/geotiffimage.js",
+          "line": 247,
+          "dependents": 9,
+          "dependsOn": 1
+        },
+        {
+          "id": "E00070",
+          "name": "GeoTIFFImage.getWidth",
+          "kind": "method",
+          "file": "src/geotiffimage.js",
+          "line": 239,
+          "dependents": 8,
+          "dependsOn": 1
+        },
+        {
+          "id": "E00112",
+          "name": "ImageFileDirectory",
+          "kind": "class",
+          "file": "src/imagefiledirectory.js",
+          "line": 278,
+          "dependents": 4,
+          "dependsOn": 1
+        },
+        {
+          "id": "E00205",
+          "name": "decodeScan>receiveAndExtend",
+          "kind": "function",
+          "file": "src/compression/jpeg.js",
+          "line": 213,
+          "dependents": 4,
+          "dependsOn": 1
+        },
+        {
+          "id": "E00290",
+          "name": "maybeWrapInBlockedSource",
+          "kind": "function",
+          "file": "src/source/remote.js",
+          "line": 181,
+          "dependents": 4,
+          "dependsOn": 1
+        },
+        {
+          "id": "E00078",
+          "name": "GeoTIFFImage.getSampleByteSize",
+          "kind": "method",
+          "file": "src/geotiffimage.js",
+          "line": 318,
+          "dependents": 3,
+          "dependsOn": 1
+        },
+        {
+          "id": "E00081",
+          "name": "GeoTIFFImage.getBitsPerSample",
+          "kind": "method",
+          "file": "src/geotiffimage.js",
+          "line": 379,
+          "dependents": 3,
+          "dependsOn": 1
+        },
+        {
+          "id": "E00106",
+          "name": "getDataSliceReader",
+          "kind": "function",
+          "file": "src/imagefiledirectory.js",
+          "line": 60,
+          "dependents": 3,
+          "dependsOn": 10
+        },
+        {
+          "id": "E00067",
+          "name": "GeoTIFFImage.constructor",
+          "kind": "constructor",
+          "file": "src/geotiffimage.js",
+          "line": 203,
+          "dependents": 2,
+          "dependsOn": 2
+        },
+        {
+          "id": "E00072",
+          "name": "GeoTIFFImage.getSamplesPerPixel",
+          "kind": "method",
+          "file": "src/geotiffimage.js",
+          "line": 255,
+          "dependents": 2,
+          "dependsOn": 1
+        },
+        {
+          "id": "E00080",
+          "name": "GeoTIFFImage.getSampleFormat",
+          "kind": "method",
+          "file": "src/geotiffimage.js",
+          "line": 374,
+          "dependents": 2,
+          "dependsOn": 1
+        },
+        {
+          "id": "E00090",
+          "name": "GeoTIFFImage.getOrigin",
+          "kind": "method",
+          "file": "src/geotiffimage.js",
+          "line": 953,
+          "dependents": 2,
+          "dependsOn": 1
+        },
+        {
+          "id": "E00192",
+          "name": "BaseDecoder.decode",
+          "kind": "method",
+          "file": "src/compression/basedecoder.js",
+          "line": 34,
+          "dependents": 2,
+          "dependsOn": 2
+        },
+        {
+          "id": "E00288",
+          "name": "RemoteSource.fetchSlice",
+          "kind": "method",
+          "file": "src/source/remote.js",
+          "line": 132,
+          "dependents": 2,
+          "dependsOn": 6
+        },
+        {
+          "id": "E00008",
+          "name": "DataSlice.covers",
+          "kind": "method",
+          "file": "src/dataslice.js",
+          "line": 40,
+          "dependents": 1,
+          "dependsOn": 2
+        },
+        {
+          "id": "E00019",
+          "name": "DataSlice.readOffset",
+          "kind": "method",
+          "file": "src/dataslice.js",
+          "line": 185,
+          "dependents": 1,
+          "dependsOn": 2
+        },
+        {
+          "id": "E00034",
+          "name": "getValues",
+          "kind": "function",
+          "file": "src/geotiff.js",
+          "line": 170,
+          "dependents": 1,
+          "dependsOn": 11
+        },
+        {
+          "id": "E00043",
+          "name": "GeoTIFF.getSlice",
+          "kind": "method",
+          "file": "src/geotiff.js",
+          "line": 426,
+          "dependents": 1,
+          "dependsOn": 2
+        },
+        {
+          "id": "E00079",
+          "name": "GeoTIFFImage.getReaderForSample",
+          "kind": "method",
+          "file": "src/geotiffimage.js",
+          "line": 330,
+          "dependents": 1,
+          "dependsOn": 1
+        },
+        {
+          "id": "E00089",
+          "name": "GeoTIFFImage.getGDALNoData",
+          "kind": "method",
+          "file": "src/geotiffimage.js",
+          "line": 940,
+          "dependents": 1,
+          "dependsOn": 2
+        },
+        {
+          "id": "E00095",
+          "name": "encodeIfds",
+          "kind": "function-var",
+          "file": "src/geotiffwriter.js",
+          "line": 258,
+          "dependents": 1,
+          "dependsOn": 1
+        },
+        {
+          "id": "E00118",
+          "name": "ImageFileDirectory.parseGeoKeyDirectory",
+          "kind": "method",
+          "file": "src/imagefiledirectory.js",
+          "line": 405,
+          "dependents": 1,
+          "dependsOn": 1
+        },
+        {
+          "id": "E00122",
+          "name": "ImageFileDirectoryParser.getSlice",
+          "kind": "method",
+          "file": "src/imagefiledirectory.js",
+          "line": 477,
+          "dependents": 1,
+          "dependsOn": 2
+        },
+        {
+          "id": "E00158",
+          "name": "resample",
+          "kind": "function",
+          "file": "src/resample.js",
+          "line": 107,
+          "dependents": 1,
+          "dependsOn": 2
+        },
+        {
+          "id": "E00161",
+          "name": "resampleInterleaved",
+          "kind": "function",
+          "file": "src/resample.js",
+          "line": 208,
+          "dependents": 1,
+          "dependsOn": 2
+        },
+        {
+          "id": "E00222",
+          "name": "JpegStreamReader.getResult",
+          "kind": "method",
+          "file": "src/compression/jpeg.js",
+          "line": 1045,
+          "dependents": 1,
+          "dependsOn": 1
+        },
+        {
+          "id": "E00230",
+          "name": "decompress",
+          "kind": "function",
+          "file": "src/compression/lzw.js",
+          "line": 58,
+          "dependents": 1,
+          "dependsOn": 5
+        },
+        {
+          "id": "E00264",
+          "name": "BlockedSource.fetchBlocks",
+          "kind": "method",
+          "file": "src/source/blockedsource.js",
+          "line": 167,
+          "dependents": 1,
+          "dependsOn": 4
+        },
+        {
+          "id": "E00266",
+          "name": "BlockedSource.readSliceData",
+          "kind": "method",
+          "file": "src/source/blockedsource.js",
+          "line": 258,
+          "dependents": 1,
+          "dependsOn": 2
+        },
+        {
+          "id": "E00274",
+          "name": "makeFileSource",
+          "kind": "function",
+          "file": "src/source/file.js",
+          "line": 97,
+          "dependents": 1,
+          "dependsOn": 1
+        },
+        {
+          "id": "E00283",
+          "name": "parseByteRanges",
+          "kind": "function",
+          "file": "src/source/httputils.js",
+          "line": 83,
+          "dependents": 1,
+          "dependsOn": 2
+        },
+        {
+          "id": "E00320",
+          "name": "HttpClient.constructRequest",
+          "kind": "method",
+          "file": "src/source/client/http.js",
+          "line": 52,
+          "dependents": 1,
+          "dependsOn": 2
+        },
+        {
+          "id": "E00327",
+          "name": "XHRClient",
+          "kind": "class",
+          "file": "src/source/client/xhr.js",
+          "line": 33,
+          "dependents": 1,
+          "dependsOn": 2
+        },
+        {
+          "id": "E00328",
+          "name": "XHRClient.constructRequest",
+          "kind": "method",
+          "file": "src/source/client/xhr.js",
+          "line": 39,
+          "dependents": 1,
+          "dependsOn": 2
+        },
+        {
+          "id": "E00148",
+          "name": "Pool.constructor",
+          "kind": "constructor",
+          "file": "src/pool.js",
+          "line": 122,
+          "dependents": 0,
+          "dependsOn": 2
+        },
+        {
+          "id": "E00248",
+          "name": "ArrayBufferSource.fetchSlice",
+          "kind": "method",
+          "file": "src/source/arraybuffer.js",
+          "line": 18,
+          "dependents": 0,
+          "dependsOn": 1
+        },
+        {
+          "id": "E00284",
+          "name": "RemoteSource",
+          "kind": "class",
+          "file": "src/source/remote.js",
+          "line": 23,
+          "dependents": 0,
+          "dependsOn": 2
+        },
+        {
+          "id": "E00310",
+          "name": "FetchClient",
+          "kind": "class",
+          "file": "src/source/client/fetch.js",
+          "line": 34,
+          "dependents": 0,
+          "dependsOn": 2
+        },
+        {
+          "id": "E00318",
+          "name": "HttpClient",
+          "kind": "class",
+          "file": "src/source/client/http.js",
+          "line": 39,
+          "dependents": 0,
+          "dependsOn": 2
+        }
+      ]
+    },
+    {
+      "wave": 4,
+      "count": 28,
+      "elements": [
+        {
+          "id": "E00066",
+          "name": "GeoTIFFImage",
+          "kind": "class",
+          "file": "src/geotiffimage.js",
+          "line": 195,
+          "dependents": 3,
+          "dependsOn": 3
+        },
+        {
+          "id": "E00073",
+          "name": "GeoTIFFImage.getTileWidth",
+          "kind": "method",
+          "file": "src/geotiffimage.js",
+          "line": 263,
+          "dependents": 3,
+          "dependsOn": 2
+        },
+        {
+          "id": "E00074",
+          "name": "GeoTIFFImage.getTileHeight",
+          "kind": "method",
+          "file": "src/geotiffimage.js",
+          "line": 271,
+          "dependents": 3,
+          "dependsOn": 3
+        },
+        {
+          "id": "E00077",
+          "name": "GeoTIFFImage.getBytesPerPixel",
+          "kind": "method",
+          "file": "src/geotiffimage.js",
+          "line": 303,
+          "dependents": 2,
+          "dependsOn": 2
+        },
+        {
+          "id": "E00082",
+          "name": "GeoTIFFImage.getArrayForSample",
+          "kind": "method",
+          "file": "src/geotiffimage.js",
+          "line": 389,
+          "dependents": 2,
+          "dependsOn": 3
+        },
+        {
+          "id": "E00091",
+          "name": "GeoTIFFImage.getResolution",
+          "kind": "method",
+          "file": "src/geotiffimage.js",
+          "line": 981,
+          "dependents": 2,
+          "dependsOn": 3
+        },
+        {
+          "id": "E00123",
+          "name": "ImageFileDirectoryParser.parseFileDirectoryAt",
+          "kind": "method",
+          "file": "src/imagefiledirectory.js",
+          "line": 502,
+          "dependents": 2,
+          "dependsOn": 12
+        },
+        {
+          "id": "E00042",
+          "name": "GeoTIFF.constructor",
+          "kind": "constructor",
+          "file": "src/geotiff.js",
+          "line": 407,
+          "dependents": 1,
+          "dependsOn": 2
+        },
+        {
+          "id": "E00069",
+          "name": "GeoTIFFImage.getGeoKeys",
+          "kind": "method",
+          "file": "src/geotiffimage.js",
+          "line": 231,
+          "dependents": 1,
+          "dependsOn": 1
+        },
+        {
+          "id": "E00096",
+          "name": "encodeImage",
+          "kind": "function-var",
+          "file": "src/geotiffwriter.js",
+          "line": 308,
+          "dependents": 1,
+          "dependsOn": 4
+        },
+        {
+          "id": "E00110",
+          "name": "DeferredArray.loadAll",
+          "kind": "method",
+          "file": "src/imagefiledirectory.js",
+          "line": 197,
+          "dependents": 1,
+          "dependsOn": 4
+        },
+        {
+          "id": "E00111",
+          "name": "DeferredArray.get",
+          "kind": "method",
+          "file": "src/imagefiledirectory.js",
+          "line": 239,
+          "dependents": 1,
+          "dependsOn": 3
+        },
+        {
+          "id": "E00149",
+          "name": "Pool.bindParameters",
+          "kind": "method",
+          "file": "src/pool.js",
+          "line": 143,
+          "dependents": 1,
+          "dependsOn": 5
+        },
+        {
+          "id": "E00206",
+          "name": "decodeScan>decodeBaseline",
+          "kind": "function",
+          "file": "src/compression/jpeg.js",
+          "line": 227,
+          "dependents": 1,
+          "dependsOn": 2
+        },
+        {
+          "id": "E00207",
+          "name": "decodeScan>decodeDCFirst",
+          "kind": "function",
+          "file": "src/compression/jpeg.js",
+          "line": 270,
+          "dependents": 1,
+          "dependsOn": 2
+        },
+        {
+          "id": "E00209",
+          "name": "decodeScan>decodeACFirst",
+          "kind": "function",
+          "file": "src/compression/jpeg.js",
+          "line": 302,
+          "dependents": 1,
+          "dependsOn": 3
+        },
+        {
+          "id": "E00210",
+          "name": "decodeScan>decodeACSuccessive",
+          "kind": "function",
+          "file": "src/compression/jpeg.js",
+          "line": 345,
+          "dependents": 1,
+          "dependsOn": 4
+        },
+        {
+          "id": "E00287",
+          "name": "RemoteSource.fetchSlices",
+          "kind": "method",
+          "file": "src/source/remote.js",
+          "line": 70,
+          "dependents": 1,
+          "dependsOn": 9
+        },
+        {
+          "id": "E00291",
+          "name": "makeFetchSource",
+          "kind": "function",
+          "file": "src/source/remote.js",
+          "line": 193,
+          "dependents": 1,
+          "dependsOn": 3
+        },
+        {
+          "id": "E00292",
+          "name": "makeXHRSource",
+          "kind": "function",
+          "file": "src/source/remote.js",
+          "line": 204,
+          "dependents": 1,
+          "dependsOn": 3
+        },
+        {
+          "id": "E00293",
+          "name": "makeHttpSource",
+          "kind": "function",
+          "file": "src/source/remote.js",
+          "line": 215,
+          "dependents": 1,
+          "dependsOn": 3
+        },
+        {
+          "id": "E00294",
+          "name": "makeCustomSource",
+          "kind": "function",
+          "file": "src/source/remote.js",
+          "line": 226,
+          "dependents": 1,
+          "dependsOn": 2
+        },
+        {
+          "id": "E00047",
+          "name": "GeoTIFF.getGhostValues",
+          "kind": "method",
+          "file": "src/geotiff.js",
+          "line": 525,
+          "dependents": 0,
+          "dependsOn": 2
+        },
+        {
+          "id": "E00120",
+          "name": "ImageFileDirectoryParser",
+          "kind": "class",
+          "file": "src/imagefiledirectory.js",
+          "line": 455,
+          "dependents": 0,
+          "dependsOn": 3
+        },
+        {
+          "id": "E00236",
+          "name": "LZWDecoder.decodeBlock",
+          "kind": "method",
+          "file": "src/compression/lzw.js",
+          "line": 155,
+          "dependents": 0,
+          "dependsOn": 1
+        },
+        {
+          "id": "E00263",
+          "name": "BlockedSource.fetch",
+          "kind": "method",
+          "file": "src/source/blockedsource.js",
+          "line": 81,
+          "dependents": 0,
+          "dependsOn": 5
+        },
+        {
+          "id": "E00321",
+          "name": "HttpClient.request",
+          "kind": "method",
+          "file": "src/source/client/http.js",
+          "line": 90,
+          "dependents": 0,
+          "dependsOn": 1
+        },
+        {
+          "id": "E00329",
+          "name": "XHRClient.request",
+          "kind": "method",
+          "file": "src/source/client/xhr.js",
+          "line": 66,
+          "dependents": 0,
+          "dependsOn": 1
+        }
+      ]
+    },
+    {
+      "wave": 5,
+      "count": 12,
+      "elements": [
+        {
+          "id": "E00048",
+          "name": "GeoTIFF.fromSource",
+          "kind": "method",
+          "file": "src/geotiff.js",
+          "line": 563,
+          "dependents": 6,
+          "dependsOn": 6
+        },
+        {
+          "id": "E00116",
+          "name": "ImageFileDirectory.loadValue",
+          "kind": "method",
+          "file": "src/imagefiledirectory.js",
+          "line": 339,
+          "dependents": 6,
+          "dependsOn": 2
+        },
+        {
+          "id": "E00044",
+          "name": "GeoTIFF.requestIFD",
+          "kind": "method",
+          "file": "src/geotiff.js",
+          "line": 443,
+          "dependents": 3,
+          "dependsOn": 3
+        },
+        {
+          "id": "E00076",
+          "name": "GeoTIFFImage.getBlockHeight",
+          "kind": "method",
+          "file": "src/geotiffimage.js",
+          "line": 290,
+          "dependents": 2,
+          "dependsOn": 2
+        },
+        {
+          "id": "E00295",
+          "name": "makeRemoteSource",
+          "kind": "function",
+          "file": "src/source/remote.js",
+          "line": 236,
+          "dependents": 2,
+          "dependsOn": 3
+        },
+        {
+          "id": "E00052",
+          "name": "MultiGeoTIFF.parseFileDirectoriesPerFile",
+          "kind": "method",
+          "file": "src/geotiff.js",
+          "line": 634,
+          "dependents": 1,
+          "dependsOn": 1
+        },
+        {
+          "id": "E00093",
+          "name": "GeoTIFFImage.getBoundingBox",
+          "kind": "method",
+          "file": "src/geotiffimage.js",
+          "line": 1036,
+          "dependents": 1,
+          "dependsOn": 5
+        },
+        {
+          "id": "E00100",
+          "name": "writeGeotiff",
+          "kind": "function",
+          "file": "src/geotiffwriter.js",
+          "line": 446,
+          "dependents": 1,
+          "dependsOn": 8
+        },
+        {
+          "id": "E00201",
+          "name": "decodeScan",
+          "kind": "function",
+          "file": "src/compression/jpeg.js",
+          "line": 147,
+          "dependents": 1,
+          "dependsOn": 7
+        },
+        {
+          "id": "E00075",
+          "name": "GeoTIFFImage.getBlockWidth",
+          "kind": "method",
+          "file": "src/geotiffimage.js",
+          "line": 282,
+          "dependents": 0,
+          "dependsOn": 1
+        },
+        {
+          "id": "E00092",
+          "name": "GeoTIFFImage.pixelIsArea",
+          "kind": "method",
+          "file": "src/geotiffimage.js",
+          "line": 1024,
+          "dependents": 0,
+          "dependsOn": 1
+        },
+        {
+          "id": "E00286",
+          "name": "RemoteSource.fetch",
+          "kind": "method",
+          "file": "src/source/remote.js",
+          "line": 42,
+          "dependents": 0,
+          "dependsOn": 2
+        }
+      ]
+    },
+    {
+      "wave": 6,
+      "count": 8,
+      "elements": [
+        {
+          "id": "E00218",
+          "name": "JpegStreamReader.parse",
+          "kind": "method",
+          "file": "src/compression/jpeg.js",
+          "line": 782,
+          "dependents": 2,
+          "dependsOn": 5
+        },
+        {
+          "id": "E00046",
+          "name": "GeoTIFF.getImageCount",
+          "kind": "method",
+          "file": "src/geotiff.js",
+          "line": 501,
+          "dependents": 1,
+          "dependsOn": 2
+        },
+        {
+          "id": "E00117",
+          "name": "ImageFileDirectory.loadValueIndexed",
+          "kind": "method",
+          "file": "src/imagefiledirectory.js",
+          "line": 380,
+          "dependents": 1,
+          "dependsOn": 5
+        },
+        {
+          "id": "E00195",
+          "name": "defaultDecoderParameterFn",
+          "kind": "function",
+          "file": "src/compression/index.js",
+          "line": 18,
+          "dependents": 1,
+          "dependsOn": 2
+        },
+        {
+          "id": "E00045",
+          "name": "GeoTIFF.getImage",
+          "kind": "method",
+          "file": "src/geotiff.js",
+          "line": 489,
+          "dependents": 0,
+          "dependsOn": 2
+        },
+        {
+          "id": "E00061",
+          "name": "writeArrayBuffer",
+          "kind": "function",
+          "file": "src/geotiff.js",
+          "line": 792,
+          "dependents": 0,
+          "dependsOn": 1
+        },
+        {
+          "id": "E00087",
+          "name": "GeoTIFFImage.getTiePoints",
+          "kind": "method",
+          "file": "src/geotiffimage.js",
+          "line": 880,
+          "dependents": 0,
+          "dependsOn": 2
+        },
+        {
+          "id": "E00088",
+          "name": "GeoTIFFImage.getGDALMetadata",
+          "kind": "method",
+          "file": "src/geotiffimage.js",
+          "line": 912,
+          "dependents": 0,
+          "dependsOn": 2
+        }
+      ]
+    },
+    {
+      "wave": 7,
+      "count": 5,
+      "elements": [
+        {
+          "id": "E00054",
+          "name": "MultiGeoTIFF.getImageCount",
+          "kind": "method",
+          "file": "src/geotiff.js",
+          "line": 680,
+          "dependents": 1,
+          "dependsOn": 1
+        },
+        {
+          "id": "E00083",
+          "name": "GeoTIFFImage.getTileOrStrip",
+          "kind": "method",
+          "file": "src/geotiffimage.js",
+          "line": 405,
+          "dependents": 1,
+          "dependsOn": 17
+        },
+        {
+          "id": "E00196",
+          "name": "addDecoder",
+          "kind": "function",
+          "file": "src/compression/index.js",
+          "line": 43,
+          "dependents": 0,
+          "dependsOn": 1
+        },
+        {
+          "id": "E00224",
+          "name": "JpegDecoder.constructor",
+          "kind": "constructor",
+          "file": "src/compression/jpeg.js",
+          "line": 1102,
+          "dependents": 0,
+          "dependsOn": 3
+        },
+        {
+          "id": "E00225",
+          "name": "JpegDecoder.decodeBlock",
+          "kind": "method",
+          "file": "src/compression/jpeg.js",
+          "line": 1111,
+          "dependents": 0,
+          "dependsOn": 3
+        }
+      ]
+    },
+    {
+      "wave": 8,
+      "count": 2,
+      "elements": [
+        {
+          "id": "E00084",
+          "name": "GeoTIFFImage._readRaster",
+          "kind": "method",
+          "file": "src/geotiffimage.js",
+          "line": 489,
+          "dependents": 1,
+          "dependsOn": 13
+        },
+        {
+          "id": "E00053",
+          "name": "MultiGeoTIFF.getImage",
+          "kind": "method",
+          "file": "src/geotiff.js",
+          "line": 648,
+          "dependents": 0,
+          "dependsOn": 4
+        }
+      ]
+    },
+    {
+      "wave": 9,
+      "count": 1,
+      "elements": [
+        {
+          "id": "E00085",
+          "name": "GeoTIFFImage.readRasters",
+          "kind": "method",
+          "file": "src/geotiffimage.js",
+          "line": 655,
+          "dependents": 3,
+          "dependsOn": 10
+        }
+      ]
+    },
+    {
+      "wave": 10,
+      "count": 3,
+      "elements": [
+        {
+          "id": "E00037",
+          "name": "GeoTIFFBase",
+          "kind": "class",
+          "file": "src/geotiff.js",
+          "line": 258,
+          "dependents": 2,
+          "dependsOn": 2
+        },
+        {
+          "id": "E00040",
+          "name": "GeoTIFFBase.readRasters",
+          "kind": "method",
+          "file": "src/geotiff.js",
+          "line": 294,
+          "dependents": 0,
+          "dependsOn": 9
+        },
+        {
+          "id": "E00086",
+          "name": "GeoTIFFImage.readRGB",
+          "kind": "method",
+          "file": "src/geotiffimage.js",
+          "line": 763,
+          "dependents": 0,
+          "dependsOn": 12
+        }
+      ]
+    },
+    {
+      "wave": 11,
+      "count": 1,
+      "elements": [
+        {
+          "id": "E00041",
+          "name": "GeoTIFF",
+          "kind": "class",
+          "file": "src/geotiff.js",
+          "line": 397,
+          "dependents": 7,
+          "dependsOn": 5
+        }
+      ]
+    },
+    {
+      "wave": 12,
+      "count": 7,
+      "elements": [
+        {
+          "id": "E00050",
+          "name": "MultiGeoTIFF",
+          "kind": "class",
+          "file": "src/geotiff.js",
+          "line": 617,
+          "dependents": 0,
+          "dependsOn": 3
+        },
+        {
+          "id": "E00055",
+          "name": "fromUrl",
+          "kind": "function",
+          "file": "src/geotiff.js",
+          "line": 703,
+          "dependents": 0,
+          "dependsOn": 3
+        },
+        {
+          "id": "E00056",
+          "name": "fromCustomClient",
+          "kind": "function",
+          "file": "src/geotiff.js",
+          "line": 717,
+          "dependents": 0,
+          "dependsOn": 3
+        },
+        {
+          "id": "E00057",
+          "name": "fromArrayBuffer",
+          "kind": "function",
+          "file": "src/geotiff.js",
+          "line": 730,
+          "dependents": 0,
+          "dependsOn": 3
+        },
+        {
+          "id": "E00058",
+          "name": "fromFile",
+          "kind": "function",
+          "file": "src/geotiff.js",
+          "line": 746,
+          "dependents": 0,
+          "dependsOn": 3
+        },
+        {
+          "id": "E00059",
+          "name": "fromBlob",
+          "kind": "function",
+          "file": "src/geotiff.js",
+          "line": 760,
+          "dependents": 0,
+          "dependsOn": 3
+        },
+        {
+          "id": "E00060",
+          "name": "fromUrls",
+          "kind": "function",
+          "file": "src/geotiff.js",
+          "line": 775,
+          "dependents": 0,
+          "dependsOn": 4
+        }
+      ]
+    }
+  ],
+  "cycleGroups": []
+}
