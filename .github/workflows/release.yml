@@ -1,0 +1,130 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - v3.1.0
+
+permissions:
+  contents: write
+
+concurrency:
+  group: release-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  release:
+    name: Verify and create release
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout tagged source
+        uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+
+      - name: Checkout pinned geotiff.js reference
+        uses: actions/checkout@v7
+        with:
+          repository: geotiffjs/geotiff.js
+          ref: 8594d1b4bde4072326916185c848e73a9e704850
+          path: geotiff-js
+          persist-credentials: false
+
+      - name: Checkout pinned GeoTIFF test-data corpus
+        uses: actions/checkout@v7
+        with:
+          repository: GeoTIFF/test-data
+          ref: 8506204783ff26a6c49ed1f721e7e1635b2e43ee
+          path: geotiff-test-data
+          persist-credentials: false
+
+      - name: Install stable Rust
+        run: |
+          rustup toolchain install stable --profile minimal --component rustfmt,clippy
+          rustup default stable
+
+      - name: Install pinned Node.js
+        uses: actions/setup-node@v7
+        with:
+          node-version: 26.5.0
+          cache: npm
+          cache-dependency-path: geotiff-js/package-lock.json
+
+      - name: Verify pinned versions
+        shell: bash
+        run: |
+          metadata="$(cargo metadata --locked --no-deps --format-version 1)"
+          package_version="$(jq -r '.packages[0].version' <<<"$metadata")"
+          reference_version="$(jq -r '.packages[0].metadata["geotiff-js"].version' <<<"$metadata")"
+          reference_commit="$(jq -r '.packages[0].metadata["geotiff-js"].commit' <<<"$metadata")"
+
+          test "$GITHUB_REF_NAME" = "v$package_version"
+          test "$package_version" = "$reference_version"
+          test "$reference_version" = "3.1.0"
+          test "$reference_commit" = "8594d1b4bde4072326916185c848e73a9e704850"
+
+      - name: Build the pinned geotiff.js reference
+        working-directory: geotiff-js
+        run: |
+          npm ci --ignore-scripts
+          npm run build
+          npm ls --depth=0
+
+      - name: Extract the pinned corpus fixture
+        run: |
+          unzip -o \
+            geotiff-test-data/files/spam2005v3r2_harvested-area_wheat_total.tiff.zip \
+            -d geotiff-test-data/files
+
+      - name: Verify formatting
+        run: cargo fmt --all -- --check
+
+      - name: Check all targets
+        run: cargo check --locked --all-targets
+
+      - name: Test
+        run: |
+          cargo test --locked --all-targets
+          cargo test --locked --doc
+
+      - name: Run live geotiff.js differential certification
+        env:
+          GEOTIFF_JS_DIR: ${{ github.workspace }}/geotiff-js
+          GEOTIFF_TEST_DATA_DIR: ${{ github.workspace }}/geotiff-test-data
+        run: |
+          cargo test --locked --test differential_parity -- --ignored --nocapture
+          cargo test --locked --test helpers_differential -- --ignored --nocapture
+          cargo test --locked --test api_differential -- --ignored --nocapture
+          cargo test --locked --test errors_differential -- --ignored --nocapture
+          cargo test --locked --test test_data_differential -- --ignored --nocapture
+
+      - name: Lint
+        run: cargo clippy --locked --all-targets -- -D warnings
+
+      - name: Build documentation
+        env:
+          RUSTDOCFLAGS: -D warnings
+        run: cargo doc --locked --no-deps
+
+      - name: Package release artifact
+        id: package
+        shell: bash
+        run: |
+          cargo package --locked
+          crate="target/package/geotiff-3.1.0.crate"
+          test -f "$crate"
+          sha256sum "$crate" > "$crate.sha256"
+          echo "crate=$crate" >> "$GITHUB_OUTPUT"
+
+      - name: Create GitHub Release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          CRATE: ${{ steps.package.outputs.crate }}
+        run: |
+          gh release create "$GITHUB_REF_NAME" \
+            "$CRATE" \
+            "$CRATE.sha256" \
+            --verify-tag \
+            --title "geotiff.rs 3.1.0" \
+            --generate-notes
